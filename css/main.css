@@ -11,8 +11,6 @@
       font-size: 100%;
   }
   
-  article,
-  aside footer,
   header,
   nav,
   section {
@@ -38,7 +36,7 @@
       margin-left: 0px;
   }
   /*utility classes
-                                            =============*/
+=============*/
   
   .center {
       text-align: center
@@ -68,7 +66,7 @@
       margin-bottom: 20px;
   }
   /*main header style starts here
-                                                ======================*/
+ ======================*/
   
   .header-wrapper {
       position: fixed;
@@ -85,8 +83,7 @@
   }
   
   .logo {
-      padding-top: 14px;
-      padding-left: 20px;
+      padding: 14px 0 0 20px;
       font-weight: 400;
       color: #9DA1A4;
   }
@@ -106,17 +103,15 @@
       float: left
   }
   
-  .nav--wrapper__list__item {
+  .main--nav__list {
       padding: 5px 8px;
-      margin-top: 13px;
+      margin: 13px 7px 0 0;
       color: #9DA1A4;
       display: inline-block;
       background: #0F0F0F;
       border-radius: 4px;
       font-size: 13px;
       font-weight: 600;
-      margin-right: 7px;
-      padding-left: 8px;
       box-shadow: inset 0px -4px 6px -6px #2B2F32;
       border-bottom: 1px solid #2B2F32;
   }
@@ -143,8 +138,7 @@
       border: 1px solid #2B2F32;
       outline: none;
       position: relative;
-      margin-top: 14px;
-      margin-right: 7px;
+      margin: 14px 7px 0 0;
   }
   
   .flaticon-search {
@@ -156,12 +150,10 @@
   }
   
   .nav--wrapper__list__search:-moz-placeholder {
-      /* Firefox 18- */
       color: #6D7578;
   }
   
   .nav--wrapper__list__search::-moz-placeholder {
-      /* Firefox 19+ */
       color: #6D7578;
   }
   
@@ -194,9 +186,9 @@
       right: 36px;
   }
   /*main header style ends here
-                                            =======================*/
+=======================*/
   /*side navbar style strarts here
-                                            ========================*/
+========================*/
   
   .sidenav--wrapper {
       position: relative;
@@ -242,8 +234,7 @@
       background: #111518;
       border-radius: 50%;
       position: relative;
-      margin: 0 auto;
-      margin-top: 67px;
+      margin: 67px auto auto auto;
   }
   
   .circular--progress__wrapper__progress--bar {
@@ -269,7 +260,7 @@
       font-weight: 600;
   }
   
-  .circular--progress__image__text {
+  .circular--progress__text {
       color: #7D8587;
       font-weight: 600;
       margin-top: 18px;
@@ -372,19 +363,18 @@
       background: linear-gradient(#FBFBFB, #ECECEC);
   }
   
-  .conetnt__primary--header__text--wrapper__heading {
+  .conetnt__primary--header__text__heading {
       color: #979797;
       font-weight: 600;
       font-size: 21px;
-      padding-left: 18px;
-      padding-top: 10px;
+      padding: 10px 0 0 18px;
       width: 100%;
       text-overflow: ellipsis;
       white-space: nowrap;
       overflow: hidden;
   }
   
-  .conetnt__primary--header__text--wrapper__sub--heading {
+  .conetnt__primary--header__text__sub--heading {
       font-weight: 400;
       color: #979797;
       padding-left: 18px;
@@ -401,7 +391,7 @@
       border-right: 1px solid #DBDBDB;
   }
   
-  .content__primary--header__text--wrapper {
+  .content__primary--header__text {
       width: calc(100% - 522px);
       height: 70px;
       float: left;
@@ -413,7 +403,7 @@
       width: 522px;
   }
   
-  .content__primary--header__list__item__text--wrapper {
+  .content__primary--header__list__item__text {
       text-align: center;
       font-size: 13px;
       width: 46%;
@@ -422,7 +412,7 @@
       float: left;
   }
   
-  .content__primary--header__list__item__text--wrapper__values1 {
+  .content__primary--header__list__item__text__values1 {
       font-size: 17px;
       font-weight: 600;
       color: #6F90A0
@@ -431,7 +421,6 @@
   .content__primary--header__list__item__graph {
       width: 46%;
       float: left;
-      /* padding-top: 16px; */
   }
   
   .content__primary--header__list__item:last-child {
@@ -442,39 +431,37 @@
       color: #CC5A63
   }
   
-  .content__primary--header__list__item__text--wrapper__values3 {
+  .content__primary--header__list__item__text__values3 {
       font-size: 17px;
       font-weight: 600;
       color: #C05F61;
   }
   
-  .content__primary--header__list__item__text--wrapper__values2 {
+  .content__primary--header__list__item__text__values2 {
       font-size: 17px;
       font-weight: 600;
       color: #92BE75
   }
   
-  .content__primary--header__list__item__text--wrapper__heading {
+  .content__primary--header__list__item__text__heading {
       color: #929EA4
   }
   /*primary header style ends here
-                                            =========================*/
+  =========================*/
   /*main content secondary header style starts here
-                                                =====================================*/
+  =====================================*/
   
   .content--secondary--header {
       margin: 0 10px;
       border: 1px solid #D6D6D6;
       height: 40px;
       border-radius: 4px;
-      /* position: relative; */
       background: -webkit-linear-gradient(#FBFBFB, #ECECEC);
       background: linear-gradient(#FBFBFB, #ECECEC);
   }
   
   .content--secondary--header__navbar__list {
       float: left;
-      /* padding-top: 6px; */
       position: relative;
       height: 100%;
   }
@@ -543,9 +530,9 @@
       margin-left: 10px
   }
   /*main content secondary header style Ends here
-                                            =====================================*/
+ =====================================*/
   /*main content feature and chart wrapper style starts here
-                                            ==============================*/
+ ==============================*/
   
   .content--features {
       margin: 0 10px;
@@ -598,12 +585,11 @@
       width: calc(100% - 40px);
       font-weight: 600;
       color: #8C8B91;
-      padding-top: 7px;
+      padding: 7px 0 0 14px;
       display: inline-block;
       height: 100%;
       float: left;
       border-right: 1px solid #D2CACA;
-      padding-left: 14px;
       font-weight: 700;
   }
   
@@ -620,7 +606,7 @@
       padding-left: 15px
   }
   
-  .features__right-block__chart--wrapper__list {
+  .features__right-block__chart__list {
       float: left;
       width: 40%;
   }
@@ -630,7 +616,7 @@
       height: 100px;
   }
   
-  .features__right-block__chart--wrapper__list__item {
+  .features__right-block__chart__list__item {
       width: 50%;
       height: 100px;
       float: left;
@@ -640,8 +626,7 @@
       color: #fff;
       font-size: 12px !important;
       display: inline-block;
-      padding-top: 3px;
-      padding-left: 6px
+      padding: 3px 0 0 6px;
   }
   
   .features__right-block__chart--wrapper__chart {
@@ -655,7 +640,7 @@
       height: 100%;
   }
   
-  .icon-wrapper {
+  .features__right-block__chart__list__item__icon-wrapper {
       display: inline-block;
       width: 24px;
       height: 24px;
@@ -664,14 +649,14 @@
       position: relative
   }
   
-  .features__right-block__chart--wrapper__list__item--primary__numbers__text {
+  .features__right-block__chart__list__item--primary__numbers__text {
       color: #71716F;
       padding-left: 4px;
       font-size: 16px;
       font-weight: 600;
   }
   
-  .features__right-block__chart--wrapper__list__item--primary__progressbar {
+  .features__right-block__chart__list__item--primary__numbers__progressbar {
       height: 5px;
       width: 84%;
       background: #D9D9D9;
@@ -681,7 +666,7 @@
       box-shadow: 0px 0px 2px lightgrey;
   }
   
-  .features__right-block__chart--wrapper__list__item--primary__progressbar::before {
+  .features__right-block__chart__list__item--primary__numbers__progressbar::before {
       content: '';
       width: 80%;
       background: #77C2F8;
@@ -690,7 +675,7 @@
       height: 5px
   }
   
-  .features__right-block__chart--wrapper__list__item__text {
+  .features__right-block__chart__list__item--primary__numbers__text {
       font-size: 13px;
       color: #AFAFAF;
       font-weight: 600
@@ -704,9 +689,7 @@
   
   .features__left--block__icon--file {
       color: #7B7987;
-      padding-left: 25%;
-      padding-top: 10%;
-      /* float: left; */
+      padding: 10% 0 0 25%;
       display: block;
       margin-left: 20px;
   }
@@ -744,7 +727,7 @@
       color: #fff;
   }
   
-  .features__left-block__list--wrapper__label2 {
+  .features__left-block__list__label2 {
       width: 24px;
       height: 20px;
       border-radius: 4px;
@@ -753,19 +736,17 @@
       top: 0;
       background: #4E4E4E;
       display: inline-block;
-      margin-right: 2px;
-      margin-top: 2px;
+      margin: 2px 2px 0 0;
   }
   
   .features__left-block__list--wrapper__label2__text {
       font-size: 12px;
       color: #fff;
       float: left;
-      padding-left: 4px;
-      padding-top: 1px;
+      padding: 1px 0 0 4px;
   }
   
-  .features__left-block__list--wrapper__label4 {
+  .features__left-block__list__label4 {
       position: absolute;
       border: solid;
       border-width: 22px 0 22px 22px;
@@ -776,7 +757,7 @@
       top: -15px;
   }
   
-  .features__left-block__list--wrapper__label4__text {
+  .features__left-block__list__label4__text {
       color: #fff;
       font-size: 13px;
       position: absolute;
@@ -784,13 +765,13 @@
       top: 0;
   }
   
-  .features__left-block__list--wrapper__label4--icon {
+  .features__left-block__list__label4--icon {
       font-size: 13px !important;
       color: #fff;
       float: left
   }
   
-  .features__left-block__list--wrapper__label4--icon::before {
+  .features__left-block__list__label4--icon::before {
       font-size: 7px !important;
       color: #fff;
       position: absolute;
@@ -799,17 +780,15 @@
       float: left;
   }
   
-  .features__left-block__list-wrapper__text {
-      /* float: left; */
+  .features__left-block__list__text {
       color: #7D7678;
       font-size: 13px;
-      /* padding-left: 40px; */
       display: block;
       font-weight: 600;
       text-align: center;
   }
   
-  .features__left-block__list-wrapper__text5 {
+  .features__left-block__list__text5 {
       float: left;
       color: #7D7678;
       font-size: 13px;
@@ -817,7 +796,7 @@
       font-weight: 600;
   }
   
-  .features__left-block__list-wrapper__text3 {
+  .features__left-block__list__text3 {
       margin-left: 55px;
       font-size: 13px;
       color: #7D7678;
@@ -828,7 +807,7 @@
       padding-left: % !important;
   }
   
-  .features__left-block__list-wrapper__text4 {
+  .features__left-block__list__text4 {
       float: left;
       color: #7D7678;
       font-size: 13px;
@@ -836,9 +815,9 @@
       font-weight: 600;
   }
   /*main content feature and chart wrapper style ends here
-                                            ==============================*/
+    ==============================*/
   /*main content calender and scrollable box wrapper starts here
-                                            ==========================================*/
+   ==========================================*/
   
   .calendar--wrapper {
       float: left;
@@ -850,7 +829,7 @@
       /* border-left: 1px solid greenyellow; */
   }
   
-  .calendar--wrapper__primary--header__heading {
+  .calendar__primary--header__heading {
       float: left;
       height: 28px;
       font-size: 13px;
@@ -865,7 +844,7 @@
       background: #111518;
   }
   
-  .calendar--wrapper__primary--header {
+  .calendar__primary--header {
       height: 40px;
       border: 1px solid #D9D9D9;
       background: -webkit-linear-gradient(#FBFBFB, #ECECEC);
@@ -874,42 +853,36 @@
       border-top-right-radius: 4px;
   }
   
-  .calendar--wrapper__primary--header__list {
+  .calendar__primary--header__list {
       float: right;
       height: 39px;
   }
   
-  .calendar--wrapper__primary--header__list__item {
+  .calendar__primary--header__list__item {
       float: left;
       display: inline-block;
       height: 39px;
       padding-top: 7px;
   }
   
-  .calendar--wrapper__primary--header__list__item__link {
+  .calendar__primary--header__list__item__link {
       padding: 10px 15px;
-      padding-bottom: s5px;
       color: #7B7987;
       font-size: 13px;
       border: 1px solid #DBDBDB;
       border-right: none;
-      /* margin-top: 11px; */
       border-top: none;
       border-bottom: none;
   }
   
-  .calendar--wrapper__primary--header__list__item__link--active {
+  .calendar__primary--header__list__item__link--active {
       background: #F9F9F9;
-      /* border-top: none; */
       border-bottom: none;
-      /* border: 1px solid #DADADA; */
       border-right: none;
-      /* height: 39px; */
-      padding-bottom: 12px;
-      padding-top: 9px;
+      padding: 10px 12px 11px 11px;
   }
   
-  .calendar-wrapper__secondary--header {
+  .calendar__secondary--header {
       padding-top: 11px;
       height: 40px;
       border: 1px solid #D1D1D1;
@@ -953,7 +926,7 @@
       position: relative
   }
   
-  .date {
+  .calender--wrapper__content__datadate {
       display: block;
       text-align: right;
       font-size: 12px;
@@ -962,16 +935,13 @@
       margin-right: 3px;
   }
   /*scrollable box starts here
-                                                ====================*/
+ ====================*/
   
   .scrollable--box {
       width: 48%;
       float: right;
-      margin-right: 10px;
-      margin-left: 0;
+      margin: 0 10px 0 0;
       border: 1px solid #D3D3D3;
-      /* border-bottom-left-radius: 4px; */
-      /* border-bottom-right-radius: 4px; */
       border-radius: 4px;
   }
   
@@ -981,8 +951,7 @@
       font-size: 11px;
       font-weight: 600;
       height: 40px;
-      padding-top: 12px;
-      padding-left: 10px;
+      padding: 12px 0 0 10px;
       background: -webkit-linear-gradient(#FBFBFB, #ECECEC);
       background: linear-gradient(#FBFBFB, #ECECEC);
       border-top-left-radius: 4px;
@@ -1010,8 +979,7 @@
       height: 35px;
       background-color: #81BADF;
       border-radius: 50%;
-      margin-left: 11px;
-      margin-top: 12px;
+      margin: 12px 0 0 11px;
       float: left;
       border: 1px solid lightgrey;
   }
@@ -1022,12 +990,11 @@
       display: inline-block;
       height: 10px;
       background: transparent;
-      margin-left: 9px;
       -webkit-transform: rotate(-45deg);
       transform: rotate(-45deg);
       border-top: none;
       border-right: none;
-      margin-top: 11px;
+      margin: 11px 0 0 9px;
   }
   
   .scrollable--box__list--wrapper__list {
@@ -1038,8 +1005,7 @@
   .scrollable--box__list--wrapper__list__text-wrapper {
       width: calc(100% - 113px);
       float: left;
-      padding-top: 11px;
-      padding-left: 18px;
+      padding: 11px 0 0 18px;
       margin-bottom: 13px;
   }
   
@@ -1047,7 +1013,6 @@
       font-size: 16px;
       color: #818285;
       text-overflow: ellipsis;
-      /* width: calc(100% - 82px); */
       white-space: nowrap;
       overflow: hidden;
   }
@@ -1096,8 +1061,7 @@
       height: 35px;
       background-color: #8FC181;
       border-radius: 50%;
-      margin-left: 11px;
-      margin-top: 12px;
+      margin: 12px 0 0 11px;
       float: left;
       border: 1px solid lightgrey;
   }
@@ -1107,15 +1071,14 @@
       height: 35px;
       background-color: #BBB5D8;
       border-radius: 50%;
-      margin-left: 11px;
-      margin-top: 12px;
+      margin: 12px 0 0 11px;
       float: left;
       border: 1px solid lightgrey;
   }
   /*scrollable box ends here
-                                                    ====================*/
+====================*/
   /*main content calender and scrollable box wrapper ends here
-                                            ======================================================*/
+ ======================================================*/
   
   .textarea--list__pofile-pic {
       background: url(../Images/face1.png) no-repeat center;
@@ -1130,11 +1093,9 @@
       width: calc(100% - 90px);
       float: RIGHT;
       border: 1px solid lightgrey;
-      /* margin-left: 1%; */
       height: auto;
       position: relative;
-      margin-top: 15px;
-      MARGIN-RIGHT: 10px;
+      margin: 15px 10px 0 0;
       background: #F8F8F8;
   }
   
@@ -1191,24 +1152,16 @@
       margin-left: 2%;
       color: #969390;
       font-size: 13px;
-      padding-top: 45px;
-      /*
-                                            display: -webkit-box;
-                                            -webkit-line-clamp: 3;
-                                            -webkit-box-orient: vertical;
-                                            */
       height: auto;
       width: 95%;
       line-height: 24px;
-      padding-left: 35px;
+      padding: 45px 0 0 35px;
   }
   
   .textarea--list__attachment {
-      margin-top: 12px;
       display: block;
       position: relative;
-      margin-bottom: 10px;
-      margin-left: -19px;
+      margin: 12px 0 10px -19px;
   }
   
   .textarea--list__heading::before {
@@ -1223,14 +1176,13 @@
       top: 8px;
   }
   
-  .profile--img {
+  .textarea-profile--img {
       background: url(../Images/face1.png) no-repeat center;
       height: 31px;
       display: inline-block;
       width: 30px;
       float: left;
-      margin-left: 32px;
-      margin-top: 15px;
+      margin: 15px 0 0 32px;
   }
   
   .profile--img1 {
@@ -1242,24 +1194,22 @@
       margin-left: 3%;
   }
   
-  .profile--img3 {
+  .textarea-profile--img3 {
       background: url(../Images/face3.png) no-repeat center;
       height: 31px;
       display: inline-block;
       width: 30px;
       float: left;
-      margin-left: 32px;
-      margin-top: 15px;
+      margin: 15px 0 0 32px;
   }
   
-  .profile--img2 {
+  .textarea-profile--img2 {
       background: url(../Images/face2.png) no-repeat center;
       height: 31px;
       display: inline-block;
       width: 30px;
       float: left;
-      margin-left: 32px;
-      margin-top: 15px;
+      margin: 15px 0 0 32px;
   }
   
   .textarea--list__heading__label2 {
@@ -1292,7 +1242,7 @@
       font-size: 13px !important;
   }
   
-  .calender--wrapper__content__row {
+  .calender__content__row {
       background: -webkit-linear-gradient(#FBFBFB, #ECECEC);
       background: linear-gradient(#FBFBFB, #ECECEC);
   }
@@ -1314,56 +1264,46 @@
       width: calc(100% - 86px);
       float: left;
       border: 1px solid lightgrey;
-      /* margin-left: 1%; */
       height: auto;
-      /* position: relative; */
-      margin-top: 15px;
       background: #F8F8F8;
-      /* margin-left: 6%; */
-      margin-right: 10px;
-      margin-bottom: 28px;
-      margin-left: 76px;
+      margin: 15px 10px 28px 76px;
   }
   
-  .comment--box__text__title {
+  .comment--box__text-wrapper__text__title {
       color: #9A9A9A;
       font-size: 13px;
       font-weight: 600;
   }
   
-  .comment--box__text__title__heading {
+  .comment--box__text-wrapper__text__title__heading {
       color: #4B525A;
   }
   
-  .comment--box__image {
+  .comment--box__text-wrapper__image {
       background: url(../Images/face2.png) no-repeat;
       height: 32px;
       width: 32px;
       display: inline-block;
-      /* padding-top: 40px; */
-      /* float: left; */
       margin-top: 1%;
   }
   
-  .comment--box__text__subtitle {
+  .comment--box__text-wrapper__text__subtitle {
       display: table;
       color: #ABABAA;
       font-size: 12px;
       font-style: italic;
   }
   
-  .comment--box__text {
+  .comment--box__text-wrapper__text {
       display: inline-block;
       width: 264px;
       float: left;
-      margin-left: 3%;
-      margin-top: 1%;
+      margin: 1% 0 0 3%;
   }
   
   .comment--box__textarea {
       width: 100%;
-      margin-top: 1%;
-      margin-bottom: 1%;
+      margin: 1% 0 1% 0;
       position: relative;
   }
   
@@ -1437,8 +1377,7 @@
       border-left: none;
       border-top: none;
       border: 1px solid lightgrey;
-      padding-left: 12px;
-      padding-top: 11px
+      padding: 11px 0 0 12px;
   }
   
   .header__item--search {
@@ -1455,8 +1394,7 @@
       border: 1px solid #2B2F32;
       outline: none;
       position: relative;
-      margin-top: 14px;
-      margin-right: 7px;
+      margin: 14px 7px 0 0;
   }
   
   .header__item--profile {
@@ -1478,8 +1416,8 @@
       border: 1px solid #2B2F32;
       outline: none;
       position: relative;
-      margin-top: 14px;
-      margin-right: 7px;
+      margin: 14px 7px 0 0;
+      color: #fff
   }
   
   .header__item__profile--img--wrapper {
@@ -1523,7 +1461,7 @@
       text-decoration: line-through
   }
   
-  li.features__right-block__chart--wrapper__list__item.full-width {
+  li.features__right-block__chart__list__item.full-width {
       width: 100%;
       height: 100px;
   }
@@ -1532,7 +1470,7 @@
       border-right: none;
   }
   
-  .nav--wrapper__list__item--active {
+  .main--nav__list--active {
       color: #DFE3E1
   }
   
@@ -1550,8 +1488,7 @@
       -webkit-transform: rotate(-45deg);
       transform: rotate(-45deg);
       cursor: pointer;
-      margin-left: 25px;
-      margin-top: 12px;
+      margin: 12px 0 0 25px;
   }
   
   .right-arrow {
@@ -1562,8 +1499,7 @@
       border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0.4);
       cursor: pointer;
       display: inline-block;
-      margin-left: 21px;
-      margin-top: 12px;
+      margin: 12px 0 0 21px;
       display: block;
   }
   
@@ -1593,7 +1529,7 @@
       cursor: pointer;
   }
   
-  .calendar__secondary {
+  .calendar__secondary--header__text-wrapper__text {
       font-size: 13px;
       display: block;
       text-align: center;
@@ -1613,28 +1549,22 @@
       width: 50px;
       height: 38px;
       float: left;
-      /* padding-top: 10px; */
-      /* padding-bottom: 4px; */
       cursor: pointer;
-      /* padding-top: 1px; */
       margin-top: -9px;
   }
   
-  .calendar__secondary--header__text {
+  .calendar__secondary--header__text-wrapper {
       float: left;
       width: calc(100% - 100px);
   }
   
   .calendar--wrapper__content__data__reminder {
       background: #729BB7;
-      margin-left: 5px;
-      margin-right: 5px;
       color: #fff;
       font-size: 13px;
       border-radius: 4px;
       padding-left: 7px;
-      margin-top: 8px;
-      margin-bottom: 5px;
+      margin: 8px 5px 5px 5px;
       word-wrap: break-word;
   }
   
@@ -1645,14 +1575,11 @@
   .calendar--wrapper__content__data__reminder-long {
       background: #729BB7;
       width: 196%;
-      margin-left: 5px;
-      margin-right: 5px;
       color: #fff;
       font-size: 13px;
       border-radius: 4px;
       padding-left: 7px;
-      margin-top: 8px;
-      margin-bottom: 5px;
+      margin: 8px 5px 5px 5px;
   }
   
   .header--home:before {
@@ -1675,8 +1602,8 @@
   
   .header-search::before {
       font-size: 12px!important;
-      right: -94px;
-      top: -20px;
+      right: 18px;
+      top: 6px;
       position: absolute;
       color: #686C6F;
       font-weight: 800;
@@ -1684,10 +1611,9 @@
   
   .sidenav-dashboard::before {
       padding-right: 5px;
-      margin-left: 0;
       font-size: 19px;
       color: #858585;
-      margin-right: 9px;
+      margin: 0 9px 0 0;
   }
   
   .content-primary-header-dashboard:: {
@@ -1695,11 +1621,6 @@
       margin-left: 0;
       font-size: 19px;
       color: #858585;
-  }
-  
-  .sidenav-bottle:: {
-      padding-right: 12px;
-      margin-left: 0;
   }
   
   .sidenav-paper::before {
@@ -1717,19 +1638,13 @@
       margin-left: 0;
   }
   
-  .sidenav-link::before {
-      padding-right: 12px;
-      margin-left: 0;
-  }
-  
   .features__left--block__icon--facebook::before {
       font-size: 30px !important;
   }
   
   .features__left--block__icon--facebook {
       color: #7B7987;
-      padding-left: 39%;
-      padding-top: 10%;
+      padding: 10% 0 0 39%;
       float: left;
   }
   
@@ -1745,8 +1660,7 @@
   .features__right-block__energy:before {
       color: #fff;
       display: inline-block;
-      margin-left: 4px;
-      margin-top: 4px;
+      margin: 4px 0 0 4px;
   }
   
   i.flaticon-settings.features__left--block__icon--settings:before {
@@ -1766,8 +1680,7 @@
   
   i.flaticon-eye.chart__icon-eye:before {
       color: #fff;
-      margin-left: 5px;
-      margin-top: 3px;
+      margin: 3px 0 0 5px;
       display: inline-block;
       font-size: 14px;
   }
@@ -1775,16 +1688,14 @@
   span.flaticon-bulb.scrollable-box__icon-bulb:before {
       font-size: 20px;
       color: #fff;
-      margin-left: 7px;
-      margin-top: 6px;
+      margin: 6px 0 0 7px;
       display: inline-block;
   }
   
   span.flaticon-phone.scrollable-box__phone:before {
       font-size: 20px;
       color: #fff;
-      margin-left: 8px;
-      margin-top: 5px;
+      margin: 5px 0 0 8px;
       display: inline-block;
   }
   
@@ -1797,7 +1708,7 @@
       margin-right: 9px;
   }
   
-  span.features__right-block__chart--wrapper__list__item--primary__numbers__text.total-visit.total-visit-text {
+  span.features__right-block__chart__list__item--primary__numbers__text.total-visit.total-visit-text {
       font-size: 24px;
   }
   
@@ -1822,10 +1733,7 @@
           width: 100%;
       }
       .content--secondary--header__navbar__list__item--active {
-          padding: 10px 28px;
-          padding-top: 11px;
-          padding-right: 0px;
-          padding-bottom: 9px;
+          padding: 11px 0 9px 28px;
           border-top-left-radius: 3px;
           border-bottom-left-radius: 3px
       }
@@ -1836,7 +1744,7 @@
           width: calc(100% - 289px);
           margin-left: 2%
       }
-      .features__right-block__chart--wrapper__list__item--primary__numbers__text {
+      .features__right-block__chart__list__item--primary__numbers__text {
           width: 48px;
           overflow: hidden;
           text-overflow: ellipsis;
@@ -1844,7 +1752,7 @@
           display: inline-block;
           font-size: 13px
       }
-      span.features__right-block__chart--wrapper__list__item--primary__numbers__text.total-visit {
+      span.features__right-block__chart__list__item--primary__numbers__text.total-visit {
           width: 67%;
           overflow: hidden;
           text-overflow: ellipsis;
@@ -1855,16 +1763,10 @@
           width: 91%;
           margin-left: 6px;
       }
-      .profile--img {
+      .textarea-profile--img {
           width: 38px;
           float: left;
           margin-left: 23px;
-      }
-      .profile--img2 {
-          /* width: 38px; */
-      }
-      .profile--img3 {
-          /* width: 38px; */
       }
       .textarea-list2 {
           width: calc(100% - 84px);
@@ -1880,8 +1782,7 @@
       }
       .comment--box {
           width: calc(100% - 78px);
-          margin-left: 64px;
-          margin-right: 10px;
+          margin: 0 10px 0 64px;
       }
       .textarea--list__textbox__image {
           width: 207px;
@@ -1905,26 +1806,23 @@
       }
       .textarea--list__textbox__image {
           margin-right: 0;
-      }
-      .textarea--list__textbox__image {
           width: 180px;
       }
-      .comment--box__text {
+      .comment--box__text-wrapper__text {
           width: auto
       }
       .mobile-view {
           display: none
       }
-      .textarea--list__textbox__image--placeholder {
+      .textarea--list__textbox__image__placeholder {
           font-size: 15px !important;
       }
       .textarea--list__textbox__image {
           width: 175px;
           margin-right: 9px;
       }
-      .comment--box__text {
-          margin-left: 8%;
-          margin-bottom: 11px;
+      .comment--box__text-wrapper__text {
+          margin: 0 0 11px 8%;
       }
       .comment--box__textarea::before {
           top: -4px;
@@ -1934,31 +1832,28 @@
   /*media queries for desktop starts here*/
   
   @media only screen and (min-width: 769px) {
-      .header-icon {
+      .mobile-header {
           display: none
       }
   }
   
-  .header-icon {
+  .mobile-header {
       float: right;
       height: 100%;
   }
   
-  .header__list {
+  .mobile-header__list {
       float: left;
       padding-top: 15px;
-      margin-right: 25px;
-      margin-right: 25px;
-      margin-top: 10px;
+      margin: 10px 25px 0 0;
       padding: 4px 9px;
       background: #161015;
       border-radius: 4px;
   }
   
-  .header__menu {
+  .mobile-header__menu {
       float: left;
-      margin-right: 25px;
-      margin-top: 10px;
+      margin: 10px 25px 0 0;
       padding: 4px 9px;
       background: #161015;
       border-radius: 4px;
@@ -1972,7 +1867,7 @@
       color: #A69FA1;
   }
   
-  .textarea--list__textbox__image--placeholder {
+  .textarea--list__textbox__image__placeholder {
       position: absolute;
       left: 50%;
       top: 50%;
@@ -1997,7 +1892,7 @@
       .main--content--wrapper {
           width: 100%;
       }
-      .content__primary--header__text--wrapper {
+      .content__primary--header__text {
           width: 100%;
           text-align: center
       }
@@ -2013,16 +1908,15 @@
       }
       .content__primary--header__list__item {
           display: inline-block;
-          margin-left: 10px;
           padding-right: 21px;
           float: none;
           width: auto;
-          margin-top: 0;
+          margin: 0 0 0 10px;
       }
       .content__primary--header__list__item:last-child {
           margin-right: 0
       }
-      .content__primary--header__list__item__text--wrapper {
+      .content__primary--header__list__item__text {
           width: auto
       }
       .features__left--block {
@@ -2039,13 +1933,12 @@
           margin-right: 0;
       }
       .features__left--block__icon--file {
-          padding-left: 0;
-          padding-top: 0;
+          padding: 0;
           float: none;
           margin-left: 0;
           display: block;
       }
-      .features__left-block__list-wrapper__text {
+      .features__left-block__list__text {
           float: none;
           display: block;
           padding-left: 0px;
@@ -2053,40 +1946,38 @@
           text-align: center;
           font-weight: 600
       }
-      .features__left-block__list-wrapper__text3 {
+      .features__left-block__list__text3 {
           margin-left: 0;
           font-weight: 600
       }
       .features__left--block__icon--file {
-          padding-left: 0;
-          padding-top: 0;
+          padding: 0;
           float: none;
           margin-left: 0px;
           display: block;
       }
-      .features__left-block__list--wrapper__label4__text {
+      .features__left-block__list__label4__text {
           right: 1px;
           top: 0;
       }
-      .features__left-block__list-wrapper__text4 {
+      .features__left-block__list__text4 {
           float: none;
           padding-left: 0px;
-          font-weight: 600s
+          font-weight: 600;
       }
       .features__left--block__icon--facebook {
-          padding-left: 0;
-          padding-top: 0;
+          padding: 0;
           float: none;
           display: block;
       }
-      .features__left-block__list-wrapper__text5 {
+      .features__left-block__list__text5 {
           float: none;
           padding-left: 0;
           font-weight: 600
       }
       .content--secondary--header__navbar__list__item--active {
-          padding: 10px 14px;
-          padding-top: 11px;
+          padding: 11px 14px 10px 14px;
+          ;
           padding-bottom: 9px;
           border-top-left-radius: 3px;
           border-bottom-left-radius: 3px
@@ -2101,7 +1992,7 @@
           width: 100%;
           height: auto
       }
-      .features__right-block__chart--wrapper__list {
+      .features__right-block__chart__list {
           float: none;
           width: auto;
           height: auto
@@ -2111,7 +2002,7 @@
           width: auto;
           display: none;
       }
-      .features__right-block__chart--wrapper__list__item {
+      .features__right-block__chart__list__item {
           width: 100%;
           height: auto;
           float: none;
@@ -2137,8 +2028,7 @@
       .scrollable--box {
           width: calc(100% - 20px);
           float: none;
-          margin-left: 10px;
-          margin-top: 20px;
+          margin: 20px 0 0 10px;
       }
       .scrollable--box__list--wrapper__list__text-wrapper {
           width: 68%;
@@ -2146,21 +2036,19 @@
       .scrollable--box__list--wrapper__list__date--wrapper {
           width: 35px;
       }
-      .profile--img {
+      .textarea-profile--img {
           display: none
       }
       .textarea--list {
           width: calc(100% - 20px);
           margin-left: 10px;
       }
-      .profile--img--mobile {
+      .textarea--list__profile--img--mobile {
           background: url(../Images/face1.png) no-repeat center;
           height: 31px;
-          margin-top: 8px;
           width: 38px;
           float: left;
-          margin-left: 13px;
-          margin-right: 25px
+          margin: 8px 25px 0 13px;
       }
       .textarea--list__heading {
           float: none;
@@ -2177,29 +2065,25 @@
       .textarea--list__attachment::before {
           left: -6px
       }
-      .profile--img2 {
+      .textarea-profile--img2 {
           display: none
       }
-      .profile--img3 {
+      .textarea-profile--img3 {
           display: none
       }
-      .profile--img2--mobile {
+      .textarea--list__profile--img2--mobile {
           background: url(../Images/face2.png) no-repeat center;
           height: 31px;
-          margin-top: 8px;
           width: 38px;
           float: left;
-          margin-left: 13px;
-          margin-right: 25px
+          margin: 8px 25px 0 13px;
       }
-      .profile--img3--mobile {
+      .textarea-list__profile--img3--mobile {
           background: url(../Images/face3.png) no-repeat center;
           height: 31px;
-          margin-top: 8px;
           width: 38px;
           float: left;
-          margin-left: 13px;
-          margin-right: 25px
+          margin: 8px 25px 0 13px;
       }
       .textarea--list__heading__title__time--duration {
           float: none;
@@ -2211,10 +2095,9 @@
           width: calc(100% - 20px);
           margin-left: 10px
       }
-      .comment--box__text {
+      .comment--box__text-wrapper__text {
           width: auto;
-          padding-left: 12px;
-          padding-bottom: 7px;
+          padding: 0 0 7px 12px;
           margin-left: : 0
       }
       .comment--box__textarea {
@@ -2232,8 +2115,7 @@
           padding: 1px 2px
       }
       .logo {
-          padding-top: 14px;
-          padding-left: 20px;
+          padding: 14px 0 0 20px;
           font-weight: 400;
           color: #9DA1A4;
           display: inline-block;
@@ -2241,27 +2123,24 @@
           height: 100%;
           text-align: center;
       }
-      .header-icon {
+      .mobile-header {
           height: 100%;
           text-align: center;
           padding-top: 14px;
           background: #11171B;
           width: 100%;
       }
-      .header__list {
+      .mobile-header__list {
           float: none;
-          padding-top: 0;
-          margin-right: 0;
-          margin-top: 10px;
+          margin: 10px 0 0 0;
           padding: 4px 9px;
           background: #161015;
           border-radius: 4px;
           display: inline;
       }
-      .header__menu {
+      .mobile-header__menu {
           float: none;
-          margin-right: 0;
-          margin-top: 10px;
+          margin: 10px 0 0 0;
           padding: 4px 9px;
           background: #161015;
           border-radius: 4px;
@@ -2273,10 +2152,10 @@
       .textarea--list__textbox {
           padding-top: 16px
       }
-      .conetnt__primary--header__text--wrapper__sub--heading {
+      .conetnt__primary--header__text__sub--heading {
           font-size: 14px;
       }
-      .features__right-block__chart--wrapper__list__item--primary__progressbar {
+      .features__right-block__chart__list__item--primary__numbers__progressbar {
           width: 93%
       }
       .textarea--list__textbox__image {
@@ -2296,16 +2175,16 @@
       .textarea--list__heading {
           height: 76px;
       }
-      .comment--box__text__title {
+      .comment--box__text-wrapper__text__title {
           font-size: 11px
       }
-      .comment--box__text__subtitle {
+      .comment--box__text-wrapper__text {
           font-size: 10px;
       }
       .textarea::-webkit-placeholder {
           font-size: 11px !important;
       }
-      .textarea--list__textbox__image--placeholder {
+      .textarea--list__textbox__image__placeholder {
           font-size: 17px
       }
       .comment-box__text-wrapper {
@@ -2335,7 +2214,7 @@
       display: none
   }
   
-  .icon-wrapper-main {
+  .features__right-block__chart__list__item--primary__numbers__icon-main {
       display: inline-block;
       width: 30px;
       height: 30px;
@@ -2358,4 +2237,13 @@
   
   li.scrollable--box__list--wrapper:last-child {
       border-bottom: none;
+  }
+  
+  .calender--wrapper__content__data__date {
+      display: block;
+      text-align: right;
+      font-size: 12px;
+      color: #A7A7A7;
+      font-weight: 600;
+      margin-right: 3px;
   }
