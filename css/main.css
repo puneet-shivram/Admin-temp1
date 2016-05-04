@@ -2356,3 +2356,7 @@
       cursor: pointer;
       display: inline-block;
   }
+  
+  li.scrollable--box__list--wrapper:last-child {
+      border-bottom: none;
+  }
