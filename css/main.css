@@ -3,14 +3,14 @@
       padding: 0;
       box-sizing: border-box
   }
-
+  
   html,
   body {
       height: 100%;
       font-family: 'Open Sans', sans-serif;
       font-size: 100%;
   }
-
+  
   article,
   aside footer,
   header,
@@ -18,16 +18,16 @@
   section {
       display: block;
   }
-
+  
   ul {
       list-style-type: none;
   }
-
+  
   a {
       color: #039be5;
       text-decoration: none;
   }
-
+  
   [class^="flaticon-"]:before,
   [class*=" flaticon-"]:before,
   [class^="flaticon-"]:after,
@@ -39,29 +39,29 @@
   }
   /*utility classes
                                             =============*/
-
+  
   .center {
       text-align: center
   }
-
+  
   .fleft {
       float: left
   }
-
+  
   .fright {
       float: right
   }
-
+  
   .clearfix:after {
       content: "";
       display: block;
       clear: both
   }
-
+  
   .text--center {
       text-align: center;
   }
-
+  
   .row {
       margin-left: auto;
       margin-right: auto;
@@ -69,7 +69,7 @@
   }
   /*main header style starts here
                                                 ======================*/
-
+  
   .header-wrapper {
       position: fixed;
       height: 50px;
@@ -77,35 +77,35 @@
       background: #151C22;
       z-index: 1;
   }
-
+  
   .navbar_wrapper {
       width: 100%;
       height: 100%;
       background: #141B21
   }
-
+  
   .logo {
       padding-top: 14px;
       padding-left: 20px;
       font-weight: 400;
       color: #9DA1A4;
   }
-
+  
   .nav--wrapper__list {
       float: left;
       height: 100%;
   }
-
+  
   .nav--wrapper {
       height: 50px;
       float: left
   }
-
+  
   .main--nav {
       height: 50px;
       float: left
   }
-
+  
   .nav--wrapper__list__item {
       padding: 5px 8px;
       margin-top: 13px;
@@ -120,7 +120,7 @@
       box-shadow: inset 0px -4px 6px -6px #2B2F32;
       border-bottom: 1px solid #2B2F32;
   }
-
+  
   .sidenav-dropdown-arrow {
       width: 0;
       height: 0;
@@ -133,7 +133,7 @@
       top: 20px;
       left: 95px;
   }
-
+  
   .nav--wrapper__list__search {
       background: #20272D;
       width: 105px;
@@ -146,39 +146,39 @@
       margin-top: 14px;
       margin-right: 7px;
   }
-
+  
   .flaticon-search {
       position: relative
   }
-
+  
   .nav--wrapper__list__search::-webkit-input-placeholder {
       color: #6D7578;
   }
-
+  
   .nav--wrapper__list__search:-moz-placeholder {
       /* Firefox 18- */
       color: #6D7578;
   }
-
+  
   .nav--wrapper__list__search::-moz-placeholder {
       /* Firefox 19+ */
       color: #6D7578;
   }
-
+  
   .nav--wrapper__list__search:-ms-input-placeholder {
       color: #6D7578;
   }
-
+  
   .nav--wrapper__list__img--wrapper {
       padding-top: 6px;
       float: left;
   }
-
+  
   .nav--wrapper__list__img--wrapper__profile--img {
       width: 51px;
       height: 40px;
   }
-
+  
   .nav--wrapper__list__profile-name {
       float: left;
       font-size: 13px;
@@ -187,7 +187,7 @@
       font-weight: 600;
       padding-left: 3px;
   }
-
+  
   .nav--wrapper__list__profile--pic__arrow {
       position: absolute;
       top: 25px;
@@ -197,7 +197,7 @@
                                             =======================*/
   /*side navbar style strarts here
                                             ========================*/
-
+  
   .sidenav--wrapper {
       position: relative;
       float: left;
@@ -205,20 +205,20 @@
       background: #111518;
       height: 100%
   }
-
+  
   .side--nav__list {
       padding: 8px 0px;
       border-left: 6px solid #2C3449;
       border-bottom: 1px solid #1B1F22;
   }
-
+  
   .side--nav__list__item {
       padding: 13px 92px 9px 18px;
       color: #7D8587;
       font-size: 13px;
       position: relative
   }
-
+  
   .dropdown-arrow {
       width: 0;
       height: 0;
@@ -229,12 +229,12 @@
       padding-top: 3px;
       display: inherit;
   }
-
+  
   .circular--progress {
       height: 191px;
       border-bottom: 1px solid #1B1F22;
   }
-
+  
   .circular--progress__wrapper {
       height: 100px;
       width: 100px;
@@ -245,7 +245,7 @@
       margin: 0 auto;
       margin-top: 67px;
   }
-
+  
   .circular--progress__wrapper__progress--bar {
       height: 100px;
       width: 100px;
@@ -259,7 +259,7 @@
       -webkit-transform: rotate(45deg);
       transform: rotate(45deg);
   }
-
+  
   .circular--progress__wrapper__value {
       display: block;
       text-align: center;
@@ -268,7 +268,7 @@
       font-size: 12px;
       font-weight: 600;
   }
-
+  
   .circular--progress__image__text {
       color: #7D8587;
       font-weight: 600;
@@ -276,7 +276,7 @@
       display: block;
       font-size: 13px;
   }
-
+  
   .secondary--list--wrapper__item__text1 {
       text-align: center;
       font-size: 13px;
@@ -285,28 +285,28 @@
       display: inline-block;
       color: #6D787C;
   }
-
+  
   .secondary--list--wrapper__item__graph {
       width: 47%;
       height: 100%;
       display: inline-block;
   }
-
+  
   .secondary--list--wrapper__item {
       border-bottom: 1px solid #1B1F22;
       width: 100%;
       padding: 10px 5px
   }
-
+  
   .secondary--list--wrapper {
       width: 100%
   }
-
+  
   .secondary--list--wrapper__item__text__values {
       font-size: 17px;
       font-weight: 600;
   }
-
+  
   .secondary--list--wrapper__item__text {
       text-align: center;
       font-size: 13px;
@@ -315,7 +315,7 @@
       display: inline-block;
       color: #6D787C;
   }
-
+  
   .secondary--list--wrapper__item2 {
       text-align: center;
       font-size: 13px;
@@ -324,7 +324,7 @@
       display: inline-block;
       color: #6D787C;
   }
-
+  
   .secondary--list--wrapper__item__text2 {
       text-align: center;
       font-size: 13px;
@@ -333,7 +333,7 @@
       display: inline-block;
       color: #799442;
   }
-
+  
   .secondary--list--wrapper__item__text3 {
       text-align: center;
       font-size: 13px;
@@ -342,7 +342,7 @@
       display: inline-block;
       color: #72949D
   }
-
+  
   .side--nav__list-active {
       border-left: 6px solid #64A5BA;
       box-shadow: 10px 0 5px -2px #64A5BA;
@@ -352,7 +352,7 @@
                                             ========================*/
   /*main content wrapper style starts here
                                             ==============================*/
-
+  
   .main--content--wrapper {
       position: relative;
       float: left;
@@ -361,7 +361,7 @@
   }
   /*primary header style starts here
                                             =========================*/
-
+  
   .conetnt__primary--header {
       height: 70px;
       border-bottom: 1px solid #D4D4D4;
@@ -371,7 +371,7 @@
       background: -webkit-linear-gradient(#FBFBFB, #ECECEC);
       background: linear-gradient(#FBFBFB, #ECECEC);
   }
-
+  
   .conetnt__primary--header__text--wrapper__heading {
       color: #979797;
       font-weight: 600;
@@ -383,7 +383,7 @@
       white-space: nowrap;
       overflow: hidden;
   }
-
+  
   .conetnt__primary--header__text--wrapper__sub--heading {
       font-weight: 400;
       color: #979797;
@@ -393,26 +393,26 @@
       white-space: nowrap;
       overflow: hidden;
   }
-
+  
   .content__primary--header__list__item {
       float: left;
       width: 169px;
       margin-top: 17px;
       border-right: 1px solid #DBDBDB;
   }
-
+  
   .content__primary--header__text--wrapper {
       width: calc(100% - 522px);
       height: 70px;
       float: left;
   }
-
+  
   .content__primary--header__list {
       float: left;
       height: 70px;
       width: 522px;
   }
-
+  
   .content__primary--header__list__item__text--wrapper {
       text-align: center;
       font-size: 13px;
@@ -421,39 +421,39 @@
       display: inline-block;
       float: left;
   }
-
+  
   .content__primary--header__list__item__text--wrapper__values1 {
       font-size: 17px;
       font-weight: 600;
       color: #6F90A0
   }
-
+  
   .content__primary--header__list__item__graph {
       width: 46%;
       float: left;
       /* padding-top: 16px; */
   }
-
+  
   .content__primary--header__list__item:last-child {
       margin-right: 15px;
   }
-
+  
   .content__primary--header__list__item__text--wrapper__values:first-child {
       color: #CC5A63
   }
-
+  
   .content__primary--header__list__item__text--wrapper__values3 {
       font-size: 17px;
       font-weight: 600;
       color: #C05F61;
   }
-
+  
   .content__primary--header__list__item__text--wrapper__values2 {
       font-size: 17px;
       font-weight: 600;
       color: #92BE75
   }
-
+  
   .content__primary--header__list__item__text--wrapper__heading {
       color: #929EA4
   }
@@ -461,7 +461,7 @@
                                             =========================*/
   /*main content secondary header style starts here
                                                 =====================================*/
-
+  
   .content--secondary--header {
       margin: 0 10px;
       border: 1px solid #D6D6D6;
@@ -471,18 +471,18 @@
       background: -webkit-linear-gradient(#FBFBFB, #ECECEC);
       background: linear-gradient(#FBFBFB, #ECECEC);
   }
-
+  
   .content--secondary--header__navbar__list {
       float: left;
       /* padding-top: 6px; */
       position: relative;
       height: 100%;
   }
-
+  
   .content--secondary--header__navbar {
       height: 100%;
   }
-
+  
   .content--secondary--header__navbar__list__item {
       font-size: 13px;
       font-weight: 600;
@@ -491,41 +491,41 @@
       height: 100%;
       display: inline-block;
   }
-
+  
   .secondary--icon__home {
       font-size: 13px;
       padding-right: 5px;
       margin-left: 0;
       color: #fff;
   }
-
+  
   .secondary--icon__tool::before {
       font-size: 12px;
       padding-right: 5px;
       margin-left: 0;
       color: #B35252;
   }
-
+  
   .secondary--icon__tool::before {
       font-size: 12px;
       padding-right: 5px;
       margin-left: 0;
       color: #B35252;
   }
-
+  
   .secondary--icon__tool::before {
       padding-right: 5px;
       margin-left: 0;
       font-size: 19px;
       color: #858585;
   }
-
+  
   .content--secondary--header__navbar__list__item--active {
       color: #fff;
       background: #6EADD6;
       padding: 10px 14px;
   }
-
+  
   .content--secondary--header__navbar__list__item--active::after {
       content: '';
       width: 0;
@@ -538,7 +538,7 @@
       border-radius: 3px;
       border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #6EADD6;
   }
-
+  
   .content--secondary--header__navbar__list:last-child {
       margin-left: 10px
   }
@@ -546,18 +546,18 @@
                                             =====================================*/
   /*main content feature and chart wrapper style starts here
                                             ==============================*/
-
+  
   .content--features {
       margin: 0 10px;
       width: calc(100% - 20px);
   }
-
+  
   .features__left--block {
       width: 272px;
       height: 100%;
       float: left;
   }
-
+  
   .features__left-block__list--wrapper {
       width: 130px;
       border: 1px solid #D5D5D5;
@@ -571,7 +571,7 @@
       background: linear-gradient(#FBFBFB, #ECECEC);
       overflow: hidden
   }
-
+  
   .features__right-block {
       float: right;
       height: 100%;
@@ -581,7 +581,7 @@
       margin-left: 20px;
       border-radius: 4px;
   }
-
+  
   .features__right-block__heading {
       width: 100%;
       height: 30px;
@@ -592,7 +592,7 @@
       border-top-right-radius: 4px;
       border-top-left-radius: 4px;
   }
-
+  
   .features__right-block__heading__title {
       font-size: 11px;
       width: calc(100% - 40px);
@@ -606,36 +606,36 @@
       padding-left: 14px;
       font-weight: 700;
   }
-
+  
   .features__right-block__heading__title--image {
       background: url(../Images/setting-img.jpg) no-repeat center center;
       display: inline-block;
       width: 40px;
       height: 30px;
   }
-
+  
   .features__right-block__chart--wrapper {
       width: 100%;
       height: 206px;
       padding-left: 15px
   }
-
+  
   .features__right-block__chart--wrapper__list {
       float: left;
       width: 40%;
   }
-
+  
   .features__right-block__chart--wrapper__list__item--primary {
       width: 100%;
       height: 100px;
   }
-
+  
   .features__right-block__chart--wrapper__list__item {
       width: 50%;
       height: 100px;
       float: left;
   }
-
+  
   .features__right-block__chart--wrapper__list__item__people-icon:before {
       color: #fff;
       font-size: 12px !important;
@@ -643,18 +643,18 @@
       padding-top: 3px;
       padding-left: 6px
   }
-
+  
   .features__right-block__chart--wrapper__chart {
       float: left;
       height: 200px;
       width: 60%;
   }
-
+  
   .img-responsive {
       width: 100%;
       height: 100%;
   }
-
+  
   .icon-wrapper {
       display: inline-block;
       width: 24px;
@@ -663,14 +663,14 @@
       border-radius: 4px;
       position: relative
   }
-
+  
   .features__right-block__chart--wrapper__list__item--primary__numbers__text {
       color: #71716F;
       padding-left: 4px;
       font-size: 16px;
       font-weight: 600;
   }
-
+  
   .features__right-block__chart--wrapper__list__item--primary__progressbar {
       height: 5px;
       width: 84%;
@@ -680,7 +680,7 @@
       margin-top: 10px;
       box-shadow: 0px 0px 2px lightgrey;
   }
-
+  
   .features__right-block__chart--wrapper__list__item--primary__progressbar::before {
       content: '';
       width: 80%;
@@ -689,19 +689,19 @@
       position: absolute;
       height: 5px
   }
-
+  
   .features__right-block__chart--wrapper__list__item__text {
       font-size: 13px;
       color: #AFAFAF;
       font-weight: 600
   }
-
+  
   .features__right-block__chasssrt--wrapper__list__item__text {
       font-size: 11px;
       color: #AFAFAF;
       font-weight: 600
   }
-
+  
   .features__left--block__icon--file {
       color: #7B7987;
       padding-left: 25%;
@@ -710,11 +710,11 @@
       display: block;
       margin-left: 20px;
   }
-
+  
   .features__left--block__icon--file::before {
       font-size: 30px !important;
   }
-
+  
   .features__left-block__list--wrapper__label1 {
       position: absolute;
       border: solid;
@@ -725,12 +725,12 @@
       right: -4px;
       top: -15px;
   }
-
+  
   .plus::before {
       font-size: 13px;
       color: #fff
   }
-
+  
   .plus {
       font-size: 13px;
       position: absolute;
@@ -738,12 +738,12 @@
       top: 0px;
       font-weight: 800;
   }
-
+  
   .plus::before {
       font-size: 11px !important;
       color: #fff;
   }
-
+  
   .features__left-block__list--wrapper__label2 {
       width: 24px;
       height: 20px;
@@ -756,7 +756,7 @@
       margin-right: 2px;
       margin-top: 2px;
   }
-
+  
   .features__left-block__list--wrapper__label2__text {
       font-size: 12px;
       color: #fff;
@@ -764,7 +764,7 @@
       padding-left: 4px;
       padding-top: 1px;
   }
-
+  
   .features__left-block__list--wrapper__label4 {
       position: absolute;
       border: solid;
@@ -775,7 +775,7 @@
       right: -4px;
       top: -15px;
   }
-
+  
   .features__left-block__list--wrapper__label4__text {
       color: #fff;
       font-size: 13px;
@@ -783,13 +783,13 @@
       right: 1px;
       top: 0;
   }
-
+  
   .features__left-block__list--wrapper__label4--icon {
       font-size: 13px !important;
       color: #fff;
       float: left
   }
-
+  
   .features__left-block__list--wrapper__label4--icon::before {
       font-size: 7px !important;
       color: #fff;
@@ -798,7 +798,7 @@
       top: 6px;
       float: left;
   }
-
+  
   .features__left-block__list-wrapper__text {
       /* float: left; */
       color: #7D7678;
@@ -808,7 +808,7 @@
       font-weight: 600;
       text-align: center;
   }
-
+  
   .features__left-block__list-wrapper__text5 {
       float: left;
       color: #7D7678;
@@ -816,18 +816,18 @@
       padding-left: 45px;
       font-weight: 600;
   }
-
+  
   .features__left-block__list-wrapper__text3 {
       margin-left: 55px;
       font-size: 13px;
       color: #7D7678;
       font-weight: 600;
   }
-
+  
   .features__left--block__icon--file4 {
       padding-left: % !important;
   }
-
+  
   .features__left-block__list-wrapper__text4 {
       float: left;
       color: #7D7678;
@@ -839,7 +839,7 @@
                                             ==============================*/
   /*main content calender and scrollable box wrapper starts here
                                             ==========================================*/
-
+  
   .calendar--wrapper {
       float: left;
       width: 48%;
@@ -849,7 +849,7 @@
       border-radius: 4px;
       /* border-left: 1px solid greenyellow; */
   }
-
+  
   .calendar--wrapper__primary--header__heading {
       float: left;
       height: 28px;
@@ -859,12 +859,12 @@
       padding-top: 11px;
       margin-left: 10px;
   }
-
+  
   .page-wrapper {
       padding-top: 50px;
       background: #111518;
   }
-
+  
   .calendar--wrapper__primary--header {
       height: 40px;
       border: 1px solid #D9D9D9;
@@ -873,19 +873,19 @@
       border-top-left-radius: 4px;
       border-top-right-radius: 4px;
   }
-
+  
   .calendar--wrapper__primary--header__list {
       float: right;
       height: 39px;
   }
-
+  
   .calendar--wrapper__primary--header__list__item {
       float: left;
       display: inline-block;
       height: 39px;
       padding-top: 7px;
   }
-
+  
   .calendar--wrapper__primary--header__list__item__link {
       padding: 10px 15px;
       padding-bottom: s5px;
@@ -897,7 +897,7 @@
       border-top: none;
       border-bottom: none;
   }
-
+  
   .calendar--wrapper__primary--header__list__item__link--active {
       background: #F9F9F9;
       /* border-top: none; */
@@ -908,7 +908,7 @@
       padding-bottom: 12px;
       padding-top: 9px;
   }
-
+  
   .calendar-wrapper__secondary--header {
       padding-top: 11px;
       height: 40px;
@@ -918,7 +918,7 @@
       border-bottom: none;
       background: #fff;
   }
-
+  
   th {
       width: 14.28%;
       border: 1px solid #D7D7D7;
@@ -926,33 +926,33 @@
       color: #827D7A;
       height: 30px
   }
-
+  
   .calendar--wrapper__content {
       width: 100%;
       table-layout: fixed;
       border-bottom-left-radius: 4px;
       border-bottom-right-radius: 4px;
   }
-
+  
   table,
   th,
   td {
       border-collapse: collapse;
   }
-
+  
   tbody {
       border: 1px solid #DBDBDB;
       background: #fff;
       border-bottom-left-radius: 4px;
       border-bottom-right-radius: 4px;
   }
-
+  
   .calender--wrapper__content__data {
       height: 60px;
       border: 1px solid lightgrey;
       position: relative
   }
-
+  
   .date {
       display: block;
       text-align: right;
@@ -963,7 +963,7 @@
   }
   /*scrollable box starts here
                                                 ====================*/
-
+  
   .scrollable--box {
       width: 48%;
       float: right;
@@ -974,7 +974,7 @@
       /* border-bottom-right-radius: 4px; */
       border-radius: 4px;
   }
-
+  
   .scrollable--box__header {
       border-bottom: 1px solid #D5D5D5;
       color: #878787;
@@ -988,7 +988,7 @@
       border-top-left-radius: 4px;
       border-top-right-radius: 4px;
   }
-
+  
   .scrollable--box__header__label {
       height: 16px;
       width: 22px;
@@ -998,13 +998,13 @@
       float: right;
       margin-right: 10px;
   }
-
+  
   .scrollable--box__list--wrapper {
       border-bottom: 1px solid #DCDCDC;
       height: 83px;
       background: #fff
   }
-
+  
   .scrollable--box__list--wrapper__list__icon-wrapper {
       width: 35px;
       height: 35px;
@@ -1015,7 +1015,7 @@
       float: left;
       border: 1px solid lightgrey;
   }
-
+  
   .scrollable--box__list--wrapper__list__icon-wrapper__tick {
       border: 5px solid #fff;
       width: 17px;
@@ -1029,12 +1029,12 @@
       border-right: none;
       margin-top: 11px;
   }
-
+  
   .scrollable--box__list--wrapper__list {
       height: 83px;
       background: #fff;
   }
-
+  
   .scrollable--box__list--wrapper__list__text-wrapper {
       width: calc(100% - 113px);
       float: left;
@@ -1042,7 +1042,7 @@
       padding-left: 18px;
       margin-bottom: 13px;
   }
-
+  
   .scrollable--box__list--wrapper__list__text-wrapper__heading {
       font-size: 16px;
       color: #818285;
@@ -1051,7 +1051,7 @@
       white-space: nowrap;
       overflow: hidden;
   }
-
+  
   .scrollable--box__list--wrapper__list__text-wrapper__desc {
       color: #94958F;
       font-size: 13px;
@@ -1062,7 +1062,7 @@
       -webkit-box-orient: vertical;
       width: 100%;
   }
-
+  
   .scrollable--box__list--wrapper__list__date--wrapper {
       float: left;
       width: 53px;
@@ -1072,7 +1072,7 @@
       margin-top: 14px;
       color: #B5B5B5;
   }
-
+  
   .sccrollable--box__list--wrapper__list__date--wrapper__day {
       display: inline-block;
       width: 100%;
@@ -1080,17 +1080,17 @@
       font-weight: 600;
       font-size: 21px;
   }
-
+  
   .sccrollable--box__list--wrapper__list__date--wrapper__month {
       display: inherit;
       text-align: center;
       font-size: 16px;
   }
-
+  
   .scrollable--box__list--wrapper__list::nth-child(2) {
       background: #BAB4D8
   }
-
+  
   .scrollable--box__list--wrapper__list__icon-wrapper2 {
       width: 35px;
       height: 35px;
@@ -1101,7 +1101,7 @@
       float: left;
       border: 1px solid lightgrey;
   }
-
+  
   .scrollable--box__list--wrapper__list__icon-wrapper3 {
       width: 35px;
       height: 35px;
@@ -1116,7 +1116,7 @@
                                                     ====================*/
   /*main content calender and scrollable box wrapper ends here
                                             ======================================================*/
-
+  
   .textarea--list__pofile-pic {
       background: url(../Images/face1.png) no-repeat center;
       width: 30px;
@@ -1125,7 +1125,7 @@
       float: left;
       margin-left: 2%;
   }
-
+  
   .textarea--list {
       width: calc(100% - 90px);
       float: RIGHT;
@@ -1137,7 +1137,7 @@
       MARGIN-RIGHT: 10px;
       background: #F8F8F8;
   }
-
+  
   .textarea--list__heading {
       float: right;
       width: 100%;
@@ -1145,7 +1145,7 @@
       height: 32px;
       border-bottom: 1px solid lightgrey
   }
-
+  
   .textarea--list__heading__label {
       background: #88B070;
       color: #fff;
@@ -1158,27 +1158,27 @@
       text-align: center;
       margin-top: 9px;
   }
-
+  
   .textarea--list__heading__username {
       color: #2b2f32;
       font-size: 13px;
       font-weight: 600;
       padding-left: 10px
   }
-
+  
   .textarea--list__heading__title {
       color: #ADADAD;
       font-size: 12px;
       padding-left: 10px
   }
-
+  
   .textarea--list__heading__title__name {
       color: #2b2f32;
       font-size: 13px;
       font-weight: 600;
       padding-left: 5px;
   }
-
+  
   .textarea--list__heading__title__time--duration {
       float: right;
       padding-right: 10px;
@@ -1186,7 +1186,7 @@
       font-size: 13px;
       margin-top: 5px;
   }
-
+  
   .textarea--list__textbox {
       margin-left: 2%;
       color: #969390;
@@ -1202,7 +1202,7 @@
       line-height: 24px;
       padding-left: 35px;
   }
-
+  
   .textarea--list__attachment {
       margin-top: 12px;
       display: block;
@@ -1210,7 +1210,7 @@
       margin-bottom: 10px;
       margin-left: -19px;
   }
-
+  
   .textarea--list__heading::before {
       content: '';
       position: absolute;
@@ -1222,7 +1222,7 @@
       border-color: rgba(0, 0, 0, 0) #dcdcdc rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
       top: 8px;
   }
-
+  
   .profile--img {
       background: url(../Images/face1.png) no-repeat center;
       height: 31px;
@@ -1232,7 +1232,7 @@
       margin-left: 32px;
       margin-top: 15px;
   }
-
+  
   .profile--img1 {
       background: url(../Images/face2.png) no-repeat center;
       height: 31px;
@@ -1241,7 +1241,7 @@
       float: left;
       margin-left: 3%;
   }
-
+  
   .profile--img3 {
       background: url(../Images/face3.png) no-repeat center;
       height: 31px;
@@ -1251,7 +1251,7 @@
       margin-left: 32px;
       margin-top: 15px;
   }
-
+  
   .profile--img2 {
       background: url(../Images/face2.png) no-repeat center;
       height: 31px;
@@ -1261,7 +1261,7 @@
       margin-left: 32px;
       margin-top: 15px;
   }
-
+  
   .textarea--list__heading__label2 {
       background: #5B97C0;
       color: #fff;
@@ -1274,7 +1274,7 @@
       text-align: center;
       margin-top: 7px;
   }
-
+  
   .textarea--list__textbox__image {
       width: 240px;
       height: 100px;
@@ -1287,16 +1287,16 @@
       position: relative;
       margin-right: 25px;
   }
-
+  
   .content--secondary--headerdashboard--icon::before {
       font-size: 13px !important;
   }
-
+  
   .calender--wrapper__content__row {
       background: -webkit-linear-gradient(#FBFBFB, #ECECEC);
       background: linear-gradient(#FBFBFB, #ECECEC);
   }
-
+  
   .textarea--list__heading__label3 {
       background: #8F84BB;
       color: #fff;
@@ -1309,7 +1309,7 @@
       text-align: center;
       margin-top: 8px;
   }
-
+  
   .comment--box {
       width: calc(100% - 86px);
       float: left;
@@ -1324,17 +1324,17 @@
       margin-bottom: 28px;
       margin-left: 76px;
   }
-
+  
   .comment--box__text__title {
       color: #9A9A9A;
       font-size: 13px;
       font-weight: 600;
   }
-
+  
   .comment--box__text__title__heading {
       color: #4B525A;
   }
-
+  
   .comment--box__image {
       background: url(../Images/face2.png) no-repeat;
       height: 32px;
@@ -1344,14 +1344,14 @@
       /* float: left; */
       margin-top: 1%;
   }
-
+  
   .comment--box__text__subtitle {
       display: table;
       color: #ABABAA;
       font-size: 12px;
       font-style: italic;
   }
-
+  
   .comment--box__text {
       display: inline-block;
       width: 264px;
@@ -1359,14 +1359,14 @@
       margin-left: 3%;
       margin-top: 1%;
   }
-
+  
   .comment--box__textarea {
       width: 100%;
       margin-top: 1%;
       margin-bottom: 1%;
       position: relative;
   }
-
+  
   input {
       width: 98%;
       margin-left: 1%;
@@ -1377,7 +1377,7 @@
       border: 1px solid lightgrey;
       padding-left: 34px;
   }
-
+  
   .comment--box__textarea::before {
       content: '';
       width: 0;
@@ -1389,14 +1389,14 @@
       top: -11px;
       left: 33px;
   }
-
+  
   .scrollable--box__list {
       overflow: auto;
       height: 511px;
       border-bottom-left-radius: 4px;
       border-bottom-right-radius: 4px;
   }
-
+  
   .side--nav__list__item__active::before {
       content: '';
       box-shadow: 0 0 6px 13px #64A5BA;
@@ -1408,12 +1408,12 @@
       position: absolute;
       top: 0;
   }
-
+  
   .progressbar1 {
       width: 92%;
       box-shadow: 0px 0px 2px #999999;
   }
-
+  
   .circular--progress__wrapper::before {
       content: '';
       height: 76px;
@@ -1428,7 +1428,7 @@
       -webkit-transform: rotate(45deg);
       transform: rotate(45deg);
   }
-
+  
   textarea {
       width: 98%;
       margin-left: 1%;
@@ -1440,12 +1440,12 @@
       padding-left: 12px;
       padding-top: 11px
   }
-
+  
   .header__item--search {
       float: left;
       height: 100%;
   }
-
+  
   .header__item--search__box {
       background: #20272D;
       width: 105px;
@@ -1458,17 +1458,17 @@
       margin-top: 14px;
       margin-right: 7px;
   }
-
+  
   .header__item--profile {
       float: left;
       height: 100%;
   }
-
+  
   .header__item {
       float: left;
       height: 100%;
   }
-
+  
   .header__item__search {
       background: #20272D;
       width: 105px;
@@ -1481,17 +1481,17 @@
       margin-top: 14px;
       margin-right: 7px;
   }
-
+  
   .header__item__profile--img--wrapper {
       padding-top: 6px;
       float: left;
   }
-
+  
   .header__item__profile--img {
       width: 51px;
       height: 40px;
   }
-
+  
   .header__item__profile--name {
       float: left;
       font-size: 13px;
@@ -1500,46 +1500,46 @@
       font-weight: 600;
       padding-left: 3px;
   }
-
+  
   .header__item__profile--name__arrow {
       position: absolute;
       top: 25px;
       right: 36px;
   }
-
+  
   .header__item--right {
       margin-right: 50px
   }
-
+  
   .list2 {
       color: #799442;
   }
-
+  
   .list3 {
       color: #72949D
   }
-
+  
   .line-through {
       text-decoration: line-through
   }
-
+  
   li.features__right-block__chart--wrapper__list__item.full-width {
       width: 100%;
       height: 100px;
   }
-
+  
   li.content__primary--header__list__item.no-border {
       border-right: none;
   }
-
+  
   .nav--wrapper__list__item--active {
       color: #DFE3E1
   }
-
+  
   .side--nav__list__item__active {
       color: #CECFD0;
   }
-
+  
   .left-arrow {
       display: block;
       width: 0;
@@ -1553,7 +1553,7 @@
       margin-left: 25px;
       margin-top: 12px;
   }
-
+  
   .right-arrow {
       width: 0;
       height: 0;
@@ -1566,7 +1566,7 @@
       margin-top: 12px;
       display: block;
   }
-
+  
   .calendar-wrapper__secondary--header__text {
       text-align: center;
       font-weight: 600;
@@ -1574,12 +1574,12 @@
       color: #6A6A6A;
       display: block
   }
-
+  
   .calendar-wrapper__secondary--header__arrow {
       width: 50px;
       height: 50px;
   }
-
+  
   .calendar-wrapper__secondary--header__arrow::before {
       content: '';
       display: inline-block;
@@ -1592,7 +1592,7 @@
       transform: rotate(-45deg);
       cursor: pointer;
   }
-
+  
   .calendar__secondary {
       font-size: 13px;
       display: block;
@@ -1600,7 +1600,7 @@
       color: #6E6C66;
       font-weight: 600;
   }
-
+  
   .calendar__secondary--header__left-item {
       float: left;
       width: 50px;
@@ -1608,7 +1608,7 @@
       height: 38px;
       margin-top: -9px;
   }
-
+  
   .calendar__secondary--header__right-item {
       width: 50px;
       height: 38px;
@@ -1619,12 +1619,12 @@
       /* padding-top: 1px; */
       margin-top: -9px;
   }
-
+  
   .calendar__secondary--header__text {
       float: left;
       width: calc(100% - 100px);
   }
-
+  
   .calendar--wrapper__content__data__reminder {
       background: #729BB7;
       width: 90%;
@@ -1638,11 +1638,11 @@
       margin-bottom: 5px;
       word-wrap: break-word;
   }
-
+  
   table.calendar--wrapper__content td {
       vertical-align: top;
   }
-
+  
   .calendar--wrapper__content__data__reminder-long {
       background: #729BB7;
       width: 196%;
@@ -1655,25 +1655,25 @@
       margin-top: 8px;
       margin-bottom: 5px;
   }
-
+  
   .header--home:before {
       font-size: 12px !important;
       padding-right: 5px;
       margin-left: 0;
   }
-
+  
   .header-user:before {
       font-size: 12px !important;
       padding-right: 5px;
       margin-left: 0;
   }
-
+  
   .header-user::before {
       font-size: 12px !important;
       padding-right: 5px;
       margin-left: 0;
   }
-
+  
   .header-search::before {
       font-size: 12px!important;
       right: -94px;
@@ -1682,7 +1682,7 @@
       color: #686C6F;
       font-weight: 800;
   }
-
+  
   .sidenav-dashboard::before {
       padding-right: 5px;
       margin-left: 0;
@@ -1690,50 +1690,50 @@
       color: #858585;
       margin-right: 9px;
   }
-
+  
   .content-primary-header-dashboard:: {
       padding-right: 5px;
       margin-left: 0;
       font-size: 19px;
       color: #858585;
   }
-
+  
   .sidenav-bottle:: {
       padding-right: 12px;
       margin-left: 0;
   }
-
+  
   .sidenav-paper::before {
       padding-right: 12px;
       margin-left: 0;
   }
-
+  
   .sidenav-bar-graph::before {
       padding-right: 12px;
       margin-left: 0;
   }
-
+  
   .sidenav-link::before {
       padding-right: 12px;
       margin-left: 0;
   }
-
+  
   .sidenav-link::before {
       padding-right: 12px;
       margin-left: 0;
   }
-
+  
   .features__left--block__icon--facebook::before {
       font-size: 30px !important;
   }
-
+  
   .features__left--block__icon--facebook {
       color: #7B7987;
       padding-left: 39%;
       padding-top: 10%;
       float: left;
   }
-
+  
   .features__left--block__icon--settings::before {
       margin-left: 15px;
       color: #73737A;
@@ -1742,29 +1742,29 @@
       height: -51px;
       display: inline-block;
   }
-
+  
   .features__right-block__energy:before {
       color: #fff;
       display: inline-block;
       margin-left: 4px;
       margin-top: 4px;
   }
-
+  
   i.flaticon-settings.features__left--block__icon--settings:before {
       font-size: 13px;
       margin-left: 15px;
       cursor: pointer;
   }
-
+  
   i.flaticon-energy.features__right-block__energy:before {
       font-size: 20px;
       margin-left: 6px;
   }
-
+  
   i.flaticon-user.features__right-block__chart--wrapper__list__item__people-icon:before {
       margin-left: 0px;
   }
-
+  
   i.flaticon-eye.chart__icon-eye:before {
       color: #fff;
       margin-left: 5px;
@@ -1772,7 +1772,7 @@
       display: inline-block;
       font-size: 14px;
   }
-
+  
   span.flaticon-bulb.scrollable-box__icon-bulb:before {
       font-size: 20px;
       color: #fff;
@@ -1780,7 +1780,7 @@
       margin-top: 6px;
       display: inline-block;
   }
-
+  
   span.flaticon-phone.scrollable-box__phone:before {
       font-size: 20px;
       color: #fff;
@@ -1788,30 +1788,30 @@
       margin-top: 5px;
       display: inline-block;
   }
-
+  
   i.flaticon-clock.textarea-clock:before {
       font-size: 12px;
       margin-right: 5px;
   }
-
+  
   .sidenav-bottle:before {
       margin-right: 9px;
   }
-
+  
   span.features__right-block__chart--wrapper__list__item--primary__numbers__text.total-visit.total-visit-text {
       font-size: 24px;
   }
-
+  
   i.flaticon-home.secondary--icon__home:before {
       font-size: 13px;
       margin-right: 1px;
   }
-
+  
   .textarea--list__textbox__image:hover {
       box-shadow: 0px 0px 4px 2px #77AEC8;
   }
   /*media queries for tablets starts here*/
-
+  
   @media screen and (min-width: 600px) and (max-width:768px) {
       .header-right {
           display: none
@@ -1933,18 +1933,18 @@
   }
   /*media queries for tablets ends here*/
   /*media queries for desktop starts here*/
-
+  
   @media only screen and (min-width: 769px) {
       .header-icon {
           display: none
       }
   }
-
+  
   .header-icon {
       float: right;
       height: 100%;
   }
-
+  
   .header__list {
       float: left;
       padding-top: 15px;
@@ -1955,7 +1955,7 @@
       background: #161015;
       border-radius: 4px;
   }
-
+  
   .header__menu {
       float: left;
       margin-right: 25px;
@@ -1964,15 +1964,15 @@
       background: #161015;
       border-radius: 4px;
   }
-
+  
   i.flaticon-menu.header-menu-icon:before {
       color: #A69FA1;
   }
-
+  
   i.flaticon-bulleted-list.header-bullet-list-icon:before {
       color: #A69FA1;
   }
-
+  
   .textarea--list__textbox__image--placeholder {
       position: absolute;
       left: 50%;
@@ -1982,12 +1982,12 @@
       font-size: 19px;
       font-weight: 700
   }
-
+  
   .mobile-view {
       display: none
   }
   /*mobile media queries starts here*/
-
+  
   @media only screen and (min-width:320px) and (max-width:599px) {
       .header-right {
           display: none
@@ -2225,7 +2225,7 @@
           position: relative
       }
       .comment--box__textarea::before {
-          top: -5px
+          top: -9px
       }
       .scrollable--box__header__label {
           height: 18px;
@@ -2298,10 +2298,10 @@
           height: 76px;
       }
       .comment--box__text__title {
-          font-size: 10px
+          font-size: 11px
       }
       .comment--box__text__subtitle {
-          font-size: 11px;
+          font-size: 10px;
       }
       .textarea::-webkit-placeholder {
           font-size: 11px !important;
@@ -2309,29 +2309,33 @@
       .textarea--list__textbox__image--placeholder {
           font-size: 17px
       }
+      .comment-box__text-wrapper {
+          width: 100%;
+          padding-left: 84px;
+      }
   }
   /*mobile media queries ends here*/
-
+  
   .wrapper {
       padding: 0px 10px;
   }
-
+  
   .border-none {
       border-bottom: none
   }
-
+  
   .content-primary-header-dashboard:before {
       margin-right: 11px
   }
-
+  
   .arrow-green {
       border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #85A745;
   }
-
+  
   .mobile-view {
       display: none
   }
-
+  
   .icon-wrapper-main {
       display: inline-block;
       width: 30px;
@@ -2340,12 +2344,12 @@
       border-radius: 4px;
       position: relative;
   }
-
+  
   i.flaticon-paperclip-document-outline.icon-attachment:before {
       font-size: 11px;
       margin-right: 6px;
   }
-
+  
   i.flaticon-settings.features__left--block__icon--settings {
       width: 39px;
       height: 30px;
