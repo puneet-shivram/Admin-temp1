@@ -7,7 +7,7 @@
   html,
   body {
       height: 100%;
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Open Sans', "Times New Roman", Georgia, sans-serif;
       font-size: 100%;
   }
   
@@ -24,17 +24,10 @@
   [class*=" flaticon-"]:before,
   [class^="flaticon-"]:after,
   [class*=" flaticon-"]:after {
-      font-family: Flaticon;
-      font-size: 20px;
-      font-style: normal;
       margin-left: 0px;
   }
   /*utility classes
 =============*/
-  
-  .center {
-      text-align: center
-  }
   
   .fleft {
       float: left
@@ -50,7 +43,7 @@
       clear: both
   }
   
-  .text--center {
+  .text-center {
       text-align: center;
   }
   
@@ -85,12 +78,12 @@
       float: left
   }
   
-  .main--nav {
+  .main-nav {
       height: 50px;
       float: left
   }
   
-  .main--nav__list {
+  .main-nav__list {
       padding: 5px 8px;
       margin: 13px 7px 0 0;
       color: #9DA1A4;
@@ -177,20 +170,20 @@
   /*side navbar style strarts here
 ========================*/
   
-  .sidenav--wrapper {
+  .sidenav-wrapper {
       position: relative;
       float: left;
       width: 200px;
       background: #111518;
   }
   
-  .side--nav__list {
+  .side-nav__list {
       padding: 8px 0px;
       border-left: 6px solid #2C3449;
       border-bottom: 1px solid #1B1F22;
   }
   
-  .side--nav__list__item {
+  .side-nav__list__item {
       padding: 13px 74px 9px 18px;
       color: #7D8587;
       font-size: 13px;
@@ -208,12 +201,12 @@
       display: inherit;
   }
   
-  .circular--progress {
+  .circular-progress {
       height: 191px;
       border-bottom: 1px solid #1B1F22;
   }
   
-  .circular--progress__wrapper {
+  .circular-progress__wrapper {
       height: 100px;
       width: 100px;
       border: 15px solid #444444;
@@ -223,21 +216,7 @@
       margin: 67px auto auto auto;
   }
   
-  .circular--progress__wrapper__progress--bar {
-      height: 100px;
-      width: 100px;
-      border: 15px solid transparent;
-      border-color: #349109 rgba(0, 0, 0, 0)rgba(0, 0, 0, 0)rgba(0, 0, 0, 0);
-      border-radius: 50%;
-      position: absolute;
-      margin-left: 0;
-      top: -15px;
-      left: -15px;
-      -webkit-transform: rotate(45deg);
-      transform: rotate(45deg);
-  }
-  
-  .circular--progress__wrapper__value {
+  .circular-progress__wrapper__value {
       display: block;
       text-align: center;
       margin-top: 26px;
@@ -246,7 +225,7 @@
       font-weight: 600;
   }
   
-  .circular--progress__text {
+  .circular-progress__text {
       color: #7D8587;
       font-weight: 600;
       margin-top: 18px;
@@ -263,23 +242,23 @@
       color: #6D787C;
   }
   
-  .secondary--list--wrapper__item__graph {
+  .secondary-list-wrapper__item__graph {
       width: 47%;
       height: 100%;
       display: inline-block;
   }
   
-  .secondary--list--wrapper__item {
+  .secondary-list-wrapper__item {
       border-bottom: 1px solid #1B1F22;
       padding: 10px 5px
   }
   
-  .secondary--list--wrapper__item__text__values {
+  .secondary-list-wrapper__item__text__values {
       font-size: 17px;
       font-weight: 600;
   }
   
-  .secondary--list--wrapper__item__text {
+  .secondary-list-wrapper__item__text {
       text-align: center;
       font-size: 13px;
       width: 50%;
@@ -315,7 +294,7 @@
       color: #72949D
   }
   
-  .side--nav__list-active {
+  .side-nav__list-active {
       border-left: 6px solid #64A5BA;
       box-shadow: 10px 0 5px -2px #64A5BA;
       overflow: hidden
@@ -325,7 +304,7 @@
   /*main content wrapper style starts here
                                             ==============================*/
   
-  .main--content--wrapper {
+  .main-content-wrapper {
       position: relative;
       float: left;
       width: calc(100% - 200px);
@@ -334,7 +313,7 @@
   /*primary header style starts here
                                             =========================*/
   
-  .conetnt__primary--header {
+  .conetnt__primary-header {
       height: 70px;
       border-bottom: 1px solid #D4D4D4;
       background: #F1F1F1;
@@ -344,7 +323,7 @@
       background: linear-gradient(#FBFBFB, #ECECEC);
   }
   
-  .conetnt__primary--header__text__heading {
+  .conetnt__primary-header__text__heading {
       color: #979797;
       font-weight: 600;
       font-size: 21px;
@@ -355,7 +334,7 @@
       overflow: hidden;
   }
   
-  .conetnt__primary--header__text__sub--heading {
+  .conetnt__primary-header__text__sub-heading {
       font-weight: 400;
       color: #979797;
       padding-left: 18px;
@@ -365,26 +344,26 @@
       overflow: hidden;
   }
   
-  .content__primary--header__list__item {
+  .content__primary-header__list__item {
       float: left;
       width: 169px;
       margin-top: 17px;
       border-right: 1px solid #DBDBDB;
   }
   
-  .content__primary--header__text {
+  .content__primary-header__text {
       width: calc(100% - 522px);
       height: 70px;
       float: left;
   }
   
-  .content__primary--header__list {
+  .content__primary-header__list {
       float: left;
       height: 70px;
       width: 522px;
   }
   
-  .content__primary--header__list__item__text {
+  .content__primary-header__list__item__text {
       text-align: center;
       font-size: 13px;
       width: 46%;
@@ -396,15 +375,14 @@
   .content__primary--header__list__item__text__values1 {
       font-size: 17px;
       font-weight: 600;
-      color: #6F90A0
   }
   
-  .content__primary--header__list__item__graph {
+  .content__primary-header__list__item__graph {
       width: 46%;
       float: left;
   }
   
-  .content__primary--header__list__item:last-child {
+  .content__primary-header__list__item:last-child {
       margin-right: 15px;
   }
   
@@ -412,27 +390,32 @@
       color: #CC5A63
   }
   
-  .content__primary--header__list__item__text__values3 {
-      font-size: 17px;
-      font-weight: 600;
-      color: #C05F61;
+  .content__primary-header__list__item__text__heading {
+      color: #929EA4
   }
   
-  .content__primary--header__list__item__text__values2 {
-      font-size: 17px;
-      font-weight: 600;
+  .content__primary-header__list__item__text__values.value1 {
+      color: #6F90A0
+  }
+  
+  .content__primary-header__list__item__text__values.value2 {
       color: #92BE75
   }
   
-  .content__primary--header__list__item__text__heading {
-      color: #929EA4
+  .content__primary-header__list__item__text__values.value3 {
+      color: #C05F61;
+  }
+  
+  .content__primary-header__list__item__text__values {
+      font-size: 17px;
+      font-weight: 600;
   }
   /*primary header style ends here
   =========================*/
   /*main content secondary header style starts here
   =====================================*/
   
-  .content--secondary--header {
+  .content-secondary-header {
       margin: 0 10px;
       border: 1px solid #D6D6D6;
       height: 40px;
@@ -441,17 +424,17 @@
       background: linear-gradient(#FBFBFB, #ECECEC);
   }
   
-  .content--secondary--header__navbar__list {
+  .content-secondary-header__navbar__list {
       float: left;
       position: relative;
       height: 100%;
   }
   
-  .content--secondary--header__navbar {
+  .content-secondary-header__navbar {
       height: 100%;
   }
   
-  .content--secondary--header__navbar__list__item {
+  .content-secondary-header__navbar__list__item {
       font-size: 13px;
       font-weight: 600;
       color: #8A8585;
@@ -460,41 +443,41 @@
       display: inline-block;
   }
   
-  .secondary--icon__home {
+  .secondary-icon__home {
       font-size: 13px;
       padding-right: 5px;
       margin-left: 0;
       color: #fff;
   }
   
-  .secondary--icon__tool::before {
+  .secondary-icon__tool::before {
       font-size: 12px;
       padding-right: 5px;
       margin-left: 0;
       color: #B35252;
   }
   
-  .secondary--icon__tool::before {
+  .secondary-icon__tool::before {
       font-size: 12px;
       padding-right: 5px;
       margin-left: 0;
       color: #B35252;
   }
   
-  .secondary--icon__tool::before {
+  .secondary-icon__tool::before {
       padding-right: 5px;
       margin-left: 0;
       font-size: 19px;
       color: #858585;
   }
   
-  .content--secondary--header__navbar__list__item--active {
+  .content-secondary-header__navbar__list__item--active {
       color: #fff;
       background: #6EADD6;
       padding: 10px 14px;
   }
   
-  .content--secondary--header__navbar__list__item--active::after {
+  .content-secondary-header__navbar__list__item--active::after {
       content: '';
       width: 0;
       position: absolute;
@@ -507,7 +490,7 @@
       border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #6EADD6;
   }
   
-  .content--secondary--header__navbar__list:last-child {
+  .content-secondary-header__navbar__list:last-child {
       margin-left: 10px
   }
   /*main content secondary header style Ends here
@@ -515,18 +498,18 @@
   /*main content feature and chart wrapper style starts here
  ==============================*/
   
-  .content--features {
+  .content-features {
       margin: 0 10px;
       width: calc(100% - 20px);
   }
   
-  .features__left--block {
+  .features__left-block {
       width: 272px;
       height: 100%;
       float: left;
   }
   
-  .features__left-block__list--wrapper {
+  .features__left-block__list-wrapper {
       width: 130px;
       border: 1px solid #D5D5D5;
       height: 78px;
@@ -557,8 +540,7 @@
       background: #EFEFEF;
       background: -webkit-linear-gradient(#FBFBFB, #ECECEC);
       background: linear-gradient(#FBFBFB, #ECECEC);
-      border-top-right-radius: 4px;
-      border-top-left-radius: 4px;
+      border-radius: 4px 4px 0 0;
   }
   
   .features__right-block__heading__title {
@@ -567,21 +549,13 @@
       font-weight: 600;
       color: #8C8B91;
       padding: 7px 0 0 14px;
-      display: inline-block;
       height: 100%;
       float: left;
       border-right: 1px solid #D2CACA;
       font-weight: 700;
   }
   
-  .features__right-block__heading__title--image {
-      background: url(../Images/setting-img.jpg) no-repeat center center;
-      display: inline-block;
-      width: 40px;
-      height: 30px;
-  }
-  
-  .features__right-block__chart--wrapper {
+  .features__right-block__chart-wrapper {
       width: 100%;
       height: 206px;
       padding-left: 15px
@@ -603,14 +577,14 @@
       float: left;
   }
   
-  .features__right-block__chart--wrapper__list__item__people-icon:before {
+  .features__right-block__chart-wrapper__list__item__people-icon:before {
       color: #fff;
       font-size: 12px !important;
       display: inline-block;
       padding: 3px 0 0 6px;
   }
   
-  .features__right-block__chart--wrapper__chart {
+  .features__right-block__chart-wrapper__chart {
       float: left;
       height: 200px;
       width: 60%;
@@ -630,14 +604,14 @@
       position: relative
   }
   
-  .features__right-block__chart__list__item--primary__numbers__text {
+  .features__right-block__chart__list__item-primary__numbers__text {
       color: #71716F;
       padding-left: 4px;
       font-size: 16px;
       font-weight: 600;
   }
   
-  .features__right-block__chart__list__item--primary__numbers__progressbar {
+  .features__right-block__chart__list__item-primary__numbers__progressbar {
       height: 5px;
       width: 84%;
       background: #D9D9D9;
@@ -647,7 +621,7 @@
       box-shadow: 0px 0px 2px lightgrey;
   }
   
-  .features__right-block__chart__list__item--primary__numbers__progressbar::before {
+  .features__right-block__chart__list__item-primary__numbers__progressbar::before {
       content: '';
       width: 80%;
       background: #77C2F8;
@@ -656,7 +630,7 @@
       height: 5px
   }
   
-  .features__right-block__chart__list__item--primary__numbers__text {
+  .features__right-block__chart__list__item-primary__numbers__text {
       font-size: 13px;
       color: #AFAFAF;
       font-weight: 600
@@ -668,18 +642,18 @@
       font-weight: 600
   }
   
-  .features__left--block__icon--file {
+  .features__left-block__icon--file {
       color: #7B7987;
       padding: 10% 0 0 25%;
       display: block;
       margin-left: 20px;
   }
   
-  .features__left--block__icon--file::before {
+  .features__left-block__icon--file::before {
       font-size: 30px !important;
   }
   
-  .features__left-block__list--wrapper__label1 {
+  .features__left-block__list__label1 {
       position: absolute;
       border: solid;
       border-width: 22px 0 22px 22px;
@@ -716,11 +690,10 @@
       right: 0;
       top: 0;
       background: #4E4E4E;
-      display: inline-block;
       margin: 2px 2px 0 0;
   }
   
-  .features__left-block__list--wrapper__label2__text {
+  .features__left-block__list-wrapper__label2__text {
       font-size: 12px;
       color: #fff;
       float: left;
@@ -746,13 +719,13 @@
       top: 0;
   }
   
-  .features__left-block__list__label4--icon {
+  .features__left-block__list__label4-icon {
       font-size: 13px !important;
       color: #fff;
       float: left
   }
   
-  .features__left-block__list__label4--icon::before {
+  .features__left-block__list__label4-icon::before {
       font-size: 7px !important;
       color: #fff;
       position: absolute;
@@ -778,14 +751,11 @@
   }
   
   .features__left-block__list__text3 {
-      margin-left: 55px;
       font-size: 13px;
       color: #7D7678;
       font-weight: 600;
-  }
-  
-  .features__left--block__icon--file4 {
-      padding-left: % !important;
+      display: block;
+      text-align: center
   }
   
   .features__left-block__list__text4 {
@@ -800,17 +770,14 @@
   /*main content calender and scrollable box wrapper starts here
    ==========================================*/
   
-  .calendar--wrapper {
+  .calendar-wrapper {
       float: left;
       width: 48%;
       margin-left: 10px;
-      border-bottom-left-radius: 4px;
-      border-bottom-right-radius: 4px;
       border-radius: 4px;
-      /* border-left: 1px solid greenyellow; */
   }
   
-  .calendar__primary--header__heading {
+  .calendar__primary-header__heading {
       float: left;
       height: 28px;
       font-size: 13px;
@@ -825,28 +792,27 @@
       background: #111518;
   }
   
-  .calendar__primary--header {
+  .calendar__primary-header {
       height: 40px;
       border: 1px solid #D9D9D9;
       background: -webkit-linear-gradient(#FBFBFB, #ECECEC);
       background: linear-gradient(#FBFBFB, #ECECEC);
-      border-top-left-radius: 4px;
-      border-top-right-radius: 4px;
+      border-radius: 4px 4px 0 0;
   }
   
-  .calendar__primary--header__list {
+  .calendar__primary-header__list {
       float: right;
       height: 39px;
   }
   
-  .calendar__primary--header__list__item {
+  .calendar__primary-header__list__item {
       float: left;
       display: inline-block;
       height: 39px;
       padding-top: 7px;
   }
   
-  .calendar__primary--header__list__item__link {
+  .calendar__primary-header__list__item__link {
       padding: 10px 15px;
       color: #7B7987;
       font-size: 13px;
@@ -856,14 +822,14 @@
       border-bottom: none;
   }
   
-  .calendar__primary--header__list__item__link--active {
+  .calendar__primary-header__list__item__link--active {
       background: #F9F9F9;
       border-bottom: none;
       border-right: none;
       padding: 10px 12px 11px 11px;
   }
   
-  .calendar__secondary--header {
+  .calendar__secondary-header {
       padding-top: 11px;
       height: 40px;
       border: 1px solid #D1D1D1;
@@ -881,11 +847,10 @@
       height: 30px
   }
   
-  .calendar--wrapper__content {
+  .calendar-wrapper__content {
       width: 100%;
       table-layout: fixed;
-      border-bottom-left-radius: 4px;
-      border-bottom-right-radius: 4px;
+      border-radius: 0 0 4px 4px;
   }
   
   table,
@@ -897,17 +862,16 @@
   tbody {
       border: 1px solid #DBDBDB;
       background: #fff;
-      border-bottom-left-radius: 4px;
-      border-bottom-right-radius: 4px;
+      border-radius: 0 0 4px 4px;
   }
   
-  .calender--wrapper__content__data {
+  .calender-wrapper__content__data {
       height: 60px;
       border: 1px solid lightgrey;
       position: relative
   }
   
-  .calender--wrapper__content__datadate {
+  .calender-wrapper__content__data__date {
       display: block;
       text-align: right;
       font-size: 12px;
@@ -918,7 +882,7 @@
   /*scrollable box starts here
  ====================*/
   
-  .scrollable--box {
+  .scrollable-box {
       width: 48%;
       float: right;
       margin: 0 10px 0 0;
@@ -926,7 +890,7 @@
       border-radius: 4px;
   }
   
-  .scrollable--box__header {
+  .scrollable-box__header {
       border-bottom: 1px solid #D5D5D5;
       color: #878787;
       font-size: 11px;
@@ -935,11 +899,10 @@
       padding: 12px 0 0 10px;
       background: -webkit-linear-gradient(#FBFBFB, #ECECEC);
       background: linear-gradient(#FBFBFB, #ECECEC);
-      border-top-left-radius: 4px;
-      border-top-right-radius: 4px;
+      border-radius: 4px 4px 0 0;
   }
   
-  .scrollable--box__header__label {
+  .scrollable-box__header__label {
       height: 16px;
       width: 22px;
       color: #fff;
@@ -949,13 +912,13 @@
       margin-right: 10px;
   }
   
-  .scrollable--box__list--wrapper {
+  .scrollable-box__list-wrapper {
       border-bottom: 1px solid #DCDCDC;
       height: 83px;
       background: #fff
   }
   
-  .scrollable--box__list--wrapper__list__icon-wrapper {
+  .scrollable-box__list-wrapper__list__icon-wrapper {
       width: 35px;
       height: 35px;
       background-color: #81BADF;
@@ -965,7 +928,7 @@
       border: 1px solid lightgrey;
   }
   
-  .scrollable--box__list--wrapper__list__icon-wrapper__tick {
+  .scrollable-box__list-wrapper__list__icon-wrapper__tick {
       border: 5px solid #fff;
       width: 17px;
       display: inline-block;
@@ -978,19 +941,19 @@
       margin: 11px 0 0 9px;
   }
   
-  .scrollable--box__list--wrapper__list {
+  .scrollable-box__list-wrapper__list {
       height: 83px;
       background: #fff;
   }
   
-  .scrollable--box__list--wrapper__list__text-wrapper {
+  .scrollable-box__list-wrapper__list__text-wrapper {
       width: calc(100% - 113px);
       float: left;
       padding: 11px 0 0 18px;
       margin-bottom: 13px;
   }
   
-  .scrollable--box__list--wrapper__list__text-wrapper__heading {
+  .scrollable-box__list-wrapper__list__text-wrapper__heading {
       font-size: 16px;
       color: #818285;
       text-overflow: ellipsis;
@@ -998,7 +961,7 @@
       overflow: hidden;
   }
   
-  .scrollable--box__list--wrapper__list__text-wrapper__desc {
+  .scrollable-box__list-wrapper__list__text-wrapper__desc {
       color: #94958F;
       font-size: 13px;
       overflow: hidden;
@@ -1009,7 +972,7 @@
       width: 100%;
   }
   
-  .scrollable--box__list--wrapper__list__date--wrapper {
+  .scrollable-box__list-wrapper__list__date-wrapper {
       float: left;
       width: 53px;
       overflow: hidden;
@@ -1019,7 +982,7 @@
       color: #B5B5B5;
   }
   
-  .sccrollable--box__list--wrapper__list__date--wrapper__day {
+  .scrollable-box__list-wrapper__list__date-wrapper__day {
       display: inline-block;
       width: 100%;
       text-align: center;
@@ -1027,34 +990,14 @@
       font-size: 21px;
   }
   
-  .sccrollable--box__list--wrapper__list__date--wrapper__month {
+  .scrollable-box__list-wrapper__list__date-wrapper__month {
       display: inherit;
       text-align: center;
       font-size: 16px;
   }
   
-  .scrollable--box__list--wrapper__list::nth-child(2) {
+  .scrollable-box__list-wrapper__list::nth-child(2) {
       background: #BAB4D8
-  }
-  
-  .scrollable--box__list--wrapper__list__icon-wrapper2 {
-      width: 35px;
-      height: 35px;
-      background-color: #8FC181;
-      border-radius: 50%;
-      margin: 12px 0 0 11px;
-      float: left;
-      border: 1px solid lightgrey;
-  }
-  
-  .scrollable--box__list--wrapper__list__icon-wrapper3 {
-      width: 35px;
-      height: 35px;
-      background-color: #BBB5D8;
-      border-radius: 50%;
-      margin: 12px 0 0 11px;
-      float: left;
-      border: 1px solid lightgrey;
   }
   /*scrollable box ends here
 ====================*/
@@ -1070,7 +1013,7 @@
       margin-left: 2%;
   }
   
-  .textarea--list {
+  .textarea-list {
       width: calc(100% - 90px);
       float: RIGHT;
       border: 1px solid lightgrey;
@@ -1080,7 +1023,7 @@
       background: #F8F8F8;
   }
   
-  .textarea--list__heading {
+  .textarea-list__heading {
       float: right;
       width: 100%;
       padding-left: 23px;
@@ -1088,7 +1031,7 @@
       border-bottom: 1px solid lightgrey
   }
   
-  .textarea--list__heading__label {
+  .textarea-list__heading__label {
       background: #88B070;
       color: #fff;
       font-size: 11px;
@@ -1101,27 +1044,27 @@
       margin-top: 9px;
   }
   
-  .textarea--list__heading__username {
+  .textarea-list__heading__username {
       color: #2b2f32;
       font-size: 13px;
       font-weight: 600;
       padding-left: 10px
   }
   
-  .textarea--list__heading__title {
+  .textarea-list__heading__title {
       color: #ADADAD;
       font-size: 12px;
       padding-left: 10px
   }
   
-  .textarea--list__heading__title__name {
+  .textarea-list__heading__title__name {
       color: #2b2f32;
       font-size: 13px;
       font-weight: 600;
       padding-left: 5px;
   }
   
-  .textarea--list__heading__title__time--duration {
+  .textarea-list__heading__title__time-duration {
       float: right;
       padding-right: 10px;
       color: #ADADAD;
@@ -1129,7 +1072,7 @@
       margin-top: 5px;
   }
   
-  .textarea--list__textbox {
+  .textarea-list__textbox {
       margin-left: 2%;
       color: #969390;
       font-size: 13px;
@@ -1139,13 +1082,13 @@
       padding: 45px 0 0 35px;
   }
   
-  .textarea--list__attachment {
+  .textarea-list__attachment {
       display: block;
       position: relative;
       margin: 12px 0 10px -19px;
   }
   
-  .textarea--list__heading::before {
+  .textarea-list__heading::before {
       content: '';
       position: absolute;
       border: solid;
@@ -1157,7 +1100,7 @@
       top: 8px;
   }
   
-  .textarea-profile--img {
+  .textarea-profile-img {
       background: url(../Images/face1.png) no-repeat center;
       height: 31px;
       display: inline-block;
@@ -1175,7 +1118,7 @@
       margin-left: 3%;
   }
   
-  .textarea-profile--img3 {
+  .textarea-profile-img3 {
       background: url(../Images/face3.png) no-repeat center;
       height: 31px;
       display: inline-block;
@@ -1184,7 +1127,7 @@
       margin: 15px 0 0 32px;
   }
   
-  .textarea-profile--img2 {
+  .textarea-profile-img2 {
       background: url(../Images/face2.png) no-repeat center;
       height: 31px;
       display: inline-block;
@@ -1193,7 +1136,7 @@
       margin: 15px 0 0 32px;
   }
   
-  .textarea--list__heading__label2 {
+  .textarea-list__heading__label2 {
       background: #5B97C0;
       color: #fff;
       font-size: 11px;
@@ -1206,7 +1149,7 @@
       margin-top: 7px;
   }
   
-  .textarea--list__textbox__image {
+  .textarea-list__textbox__image {
       width: 240px;
       height: 100px;
       background: #CCCCCC;
@@ -1219,7 +1162,7 @@
       margin-right: 25px;
   }
   
-  .content--secondary--headerdashboard--icon::before {
+  .content-secondary-headerdashboard--icon::before {
       font-size: 13px !important;
   }
   
@@ -1228,7 +1171,7 @@
       background: linear-gradient(#FBFBFB, #ECECEC);
   }
   
-  .textarea--list__heading__label3 {
+  .textarea-list__heading__label3 {
       background: #8F84BB;
       color: #fff;
       font-size: 11px;
@@ -1241,7 +1184,7 @@
       margin-top: 8px;
   }
   
-  .comment--box {
+  .comment-box {
       width: calc(100% - 86px);
       float: left;
       border: 1px solid lightgrey;
@@ -1250,17 +1193,17 @@
       margin: 15px 10px 28px 76px;
   }
   
-  .comment--box__text-wrapper__text__title {
+  .comment-box__text-wrapper__text__title {
       color: #9A9A9A;
       font-size: 13px;
       font-weight: 600;
   }
   
-  .comment--box__text-wrapper__text__title__heading {
+  .comment-box__text-wrapper__text__title__heading {
       color: #4B525A;
   }
   
-  .comment--box__text-wrapper__image {
+  .comment-box__text-wrapper__image {
       background: url(../Images/face2.png) no-repeat;
       height: 32px;
       width: 32px;
@@ -1268,21 +1211,21 @@
       margin-top: 1%;
   }
   
-  .comment--box__text-wrapper__text__subtitle {
+  .comment-box__text-wrapper__text__subtitle {
       display: table;
       color: #ABABAA;
       font-size: 12px;
       font-style: italic;
   }
   
-  .comment--box__text-wrapper__text {
+  .comment-box__text-wrapper__text {
       display: inline-block;
       width: 264px;
       float: left;
       margin: 1% 0 0 3%;
   }
   
-  .comment--box__textarea {
+  .comment-box__textarea {
       width: 100%;
       margin: 1% 0 1% 0;
       position: relative;
@@ -1299,7 +1242,7 @@
       padding-left: 34px;
   }
   
-  .comment--box__textarea::before {
+  .comment-box__textarea::before {
       content: '';
       width: 0;
       height: 0;
@@ -1311,14 +1254,13 @@
       left: 33px;
   }
   
-  .scrollable--box__list {
+  .scrollable-box__list {
       overflow: auto;
       height: 511px;
-      border-bottom-left-radius: 4px;
-      border-bottom-right-radius: 4px;
+      border-radius: 0 0 4px 4px;
   }
   
-  .side--nav__list__item__active::before {
+  .side-nav__list__item__active::before {
       content: '';
       box-shadow: 0 0 6px 13px #64A5BA;
       position: absolute;
@@ -1335,7 +1277,7 @@
       box-shadow: 0px 0px 2px #999999;
   }
   
-  .circular--progress__wrapper::before {
+  .circular-progress__wrapper::before {
       content: '';
       height: 76px;
       width: 76px;
@@ -1343,20 +1285,17 @@
       border-color: #349109 rgba(0, 0, 0, 0)rgba(0, 0, 0, 0)rgba(0, 0, 0, 0);
       border-radius: 50%;
       position: absolute;
-      margin-left: 0;
       top: -15px;
       left: -21px;
       -webkit-transform: rotate(45deg);
       transform: rotate(45deg);
   }
   
-  textarea {
+  .comment-box__textarea__comment {
       width: 98%;
       margin-left: 1%;
       height: 40px;
       border-radius: 4px;
-      border-left: none;
-      border-top: none;
       border: 1px solid lightgrey;
       padding: 11px 0 0 12px;
   }
@@ -1399,17 +1338,17 @@
       color: #fff
   }
   
-  .header__item__profile--img--wrapper {
+  .header__item__profile-img-wrapper {
       padding-top: 6px;
       float: left;
   }
   
-  .header__item__profile--img {
+  .header__item__profile-img {
       width: 51px;
       height: 40px;
   }
   
-  .header__item__profile--name {
+  .header__item__profile-name {
       float: left;
       font-size: 13px;
       margin-top: 17px;
@@ -1418,13 +1357,13 @@
       padding-left: 3px;
   }
   
-  .header__item__profile--name__arrow {
+  .header__item__profile-name__arrow {
       position: absolute;
       top: 25px;
       right: 36px;
   }
   
-  .header__item--right {
+  .header__item-right {
       margin-right: 50px
   }
   
@@ -1445,15 +1384,15 @@
       height: 100px;
   }
   
-  li.content__primary--header__list__item.no-border {
+  li.content__primary-header__list__item.no-border {
       border-right: none;
   }
   
-  .main--nav__list--active {
+  .main-nav__list-active {
       color: #DFE3E1
   }
   
-  .side--nav__list__item__active {
+  .side-nav__list__item__active {
       color: #CECFD0;
   }
   
@@ -1508,7 +1447,7 @@
       cursor: pointer;
   }
   
-  .calendar__secondary--header__text-wrapper__text {
+  .calendar__secondary-header__text-wrapper__text {
       font-size: 13px;
       display: block;
       text-align: center;
@@ -1516,7 +1455,7 @@
       font-weight: 600;
   }
   
-  .calendar__secondary--header__left-item {
+  .calendar__secondary-header__left-item {
       float: left;
       width: 50px;
       cursor: pointer;
@@ -1524,7 +1463,7 @@
       margin-top: -9px;
   }
   
-  .calendar__secondary--header__right-item {
+  .calendar__secondary-header__right-item {
       width: 50px;
       height: 38px;
       float: left;
@@ -1532,12 +1471,12 @@
       margin-top: -9px;
   }
   
-  .calendar__secondary--header__text-wrapper {
+  .calendar__secondary-header__text-wrapper {
       float: left;
       width: calc(100% - 100px);
   }
   
-  .calendar--wrapper__content__data__reminder {
+  .calendar-wrapper__content__data__reminder {
       background: #729BB7;
       color: #fff;
       font-size: 13px;
@@ -1547,11 +1486,11 @@
       word-wrap: break-word;
   }
   
-  table.calendar--wrapper__content td {
+  table.calendar-wrapper__content td {
       vertical-align: top;
   }
   
-  .calendar--wrapper__content__data__reminder-long {
+  .calendar-wrapper__content__data__reminder-long {
       background: #729BB7;
       width: 196%;
       color: #fff;
@@ -1561,7 +1500,7 @@
       margin: 8px 5px 5px 5px;
   }
   
-  .header--home:before {
+  .header-home:before {
       font-size: 12px !important;
       padding-right: 5px;
       margin-left: 0;
@@ -1617,17 +1556,17 @@
       margin-left: 0;
   }
   
-  .features__left--block__icon--facebook::before {
+  .features__left--block__icon-facebook::before {
       font-size: 30px !important;
   }
   
-  .features__left--block__icon--facebook {
+  .features__left--block__icon-facebook {
       color: #7B7987;
       padding: 10% 0 0 39%;
       float: left;
   }
   
-  .features__left--block__icon--settings::before {
+  .features__left--block__icon-settings::before {
       margin-left: 15px;
       color: #73737A;
       font-size: 14px;
@@ -1642,18 +1581,17 @@
       margin: 4px 0 0 4px;
   }
   
-  i.flaticon-settings.features__left--block__icon--settings:before {
+  i.flaticon-settings.features__left--block__icon-settings:before {
       font-size: 13px;
       margin-left: 15px;
       cursor: pointer;
   }
   
   i.flaticon-energy.features__right-block__energy:before {
-      font-size: 20px;
       margin-left: 6px;
   }
   
-  i.flaticon-user.features__right-block__chart--wrapper__list__item__people-icon:before {
+  i.flaticon-user.features__right-block__chart-wrapper__list__item__people-icon:before {
       margin-left: 0px;
   }
   
@@ -1687,16 +1625,16 @@
       margin-right: 9px;
   }
   
-  span.features__right-block__chart__list__item--primary__numbers__text.total-visit.total-visit-text {
+  span.features__right-block__chart__list__item-primary__numbers__text.total-visit.total-visit-text {
       font-size: 24px;
   }
   
-  i.flaticon-home.secondary--icon__home:before {
+  i.flaticon-home.secondary-icon__home:before {
       font-size: 13px;
       margin-right: 1px;
   }
   
-  .textarea--list__textbox__image:hover {
+  .textarea-list__textbox__image:hover {
       box-shadow: 0px 0px 4px 2px #77AEC8;
   }
   /*media queries for tablets starts here*/
@@ -1705,25 +1643,24 @@
       .header-right {
           display: none
       }
-      .sidenav--wrapper {
+      .sidenav-wrapper {
           display: none
       }
-      .main--content--wrapper {
+      .main-content-wrapper {
           width: 100%;
       }
-      .content--secondary--header__navbar__list__item--active {
+      .content-secondary-header__navbar__list__item--active {
           padding: 11px 0 9px 28px;
-          border-top-left-radius: 3px;
-          border-bottom-left-radius: 3px
+          border-radius: 3px 0 0 3px;
       }
-      .content--secondary--header {
+      .content-secondary-header {
           margin-right: 10px
       }
       .features__right-block {
           width: calc(100% - 289px);
           margin-left: 2%
       }
-      .features__right-block__chart__list__item--primary__numbers__text {
+      .features__right-block__chart__list__item-primary__numbers__text {
           width: 48px;
           overflow: hidden;
           text-overflow: ellipsis;
@@ -1731,18 +1668,18 @@
           display: inline-block;
           font-size: 13px
       }
-      span.features__right-block__chart__list__item--primary__numbers__text.total-visit {
+      span.features__right-block__chart__list__item-primary__numbers__text.total-visit {
           width: 67%;
           overflow: hidden;
           text-overflow: ellipsis;
           white-space: nowrap;
           display: inline-block;
       }
-      .textarea--list {
+      .textarea-list {
           width: 91%;
           margin-left: 6px;
       }
-      .textarea-profile--img {
+      .textarea-profile-img {
           width: 38px;
           float: left;
           margin-left: 23px;
@@ -1759,52 +1696,52 @@
           width: calc(100% - 84px);
           margin-left: 3px;
       }
-      .comment--box {
+      .comment-box {
           width: calc(100% - 78px);
           margin: 0 10px 0 64px;
       }
-      .textarea--list__textbox__image {
+      .textarea-list__textbox__image {
           width: 207px;
       }
-      .calendar--wrapper {
+      .calendar-wrapper {
           width: calc(100% - 313px);
           margin-left: 10px;
       }
-      .scrollable--box {
+      .scrollable-box {
           width: 279px;
           margin-left: 10px;
       }
-      .scrollable--box__header {
+      .scrollable-box__header {
           width: 277px;
       }
-      .scrollable--box__list--wrapper__list__text-wrapper {
+      .scrollable-box__list-wrapper__list__text-wrapper {
           width: calc(100% - 82px);
       }
-      .scrollable--box__list--wrapper__list__date--wrapper {
+      .scrollable-box__list-wrapper__list__date-wrapper {
           width: 35px;
       }
-      .textarea--list__textbox__image {
+      .textarea-list__textbox__image {
           margin-right: 0;
           width: 180px;
       }
-      .comment--box__text-wrapper__text {
+      .comment-box__text-wrapper__text {
           width: auto
       }
       .mobile-view {
           display: none
       }
-      .textarea--list__textbox__image__placeholder {
+      .textarea-list__textbox__image__placeholder {
           font-size: 15px !important;
       }
-      .textarea--list__textbox__image {
+      .textarea-list__textbox__image {
           width: 175px;
           margin-right: 9px;
       }
-      .comment--box__text-wrapper__text {
+      .comment-box__text-wrapper__text {
           margin: 0 0 11px 8%;
       }
-      .comment--box__textarea::before {
-          top: -4px;
+      .comment-box__textarea::before {
+          top: -11px;
       }
   }
   /*media queries for tablets ends here*/
@@ -1846,7 +1783,7 @@
       color: #A69FA1;
   }
   
-  .textarea--list__textbox__image__placeholder {
+  .textarea-list__textbox__image__placeholder {
       position: absolute;
       left: 50%;
       top: 50%;
@@ -1865,86 +1802,64 @@
       .header-right {
           display: none
       }
-      .sidenav--wrapper {
+      .sidenav-wrapper {
           display: none
       }
-      .main--content--wrapper {
+      .main-content-wrapper {
           width: 100%;
       }
-      .content__primary--header__text {
-          width: 100%;
-          text-align: center
-      }
-      .content__primary--header__list {
+      .content__primary-header__text {
           width: 100%;
           text-align: center
       }
-      .conetnt__primary--header {
+      .content__primary-header__list {
+          width: 100%;
+          text-align: center
+      }
+      .conetnt__primary-header {
           height: 120px;
       }
-      .content__primary--header__list__item__graph {
+      .content__primary-header__list__item__graph {
           display: none
       }
-      .content__primary--header__list__item {
+      .content__primary-header__list__item {
           display: inline-block;
           padding-right: 21px;
           float: none;
           width: auto;
           margin: 0 0 0 10px;
       }
-      .content__primary--header__list__item:last-child {
+      .content__primary-header__list__item:last-child {
           margin-right: 0
       }
-      .content__primary--header__list__item__text {
+      .content__primary-header__list__item__text {
           width: auto
       }
-      .features__left--block {
+      .features__left-block {
           width: auto;
           height: auto;
           float: none
       }
-      .features__left-block__list--wrapper {
+      .features__left-block__list-wrapper {
           width: 100%;
           text-align: center;
-          display: block;
           padding-top: 16px;
           float: none;
-          margin-right: 0;
-      }
-      .features__left--block__icon--file {
-          padding: 0;
-          float: none;
-          margin-left: 0;
-          display: block;
-      }
-      .features__left-block__list__text {
-          float: none;
-          display: block;
-          padding-left: 0px;
-          display: block;
-          text-align: center;
-          font-weight: 600
       }
       .features__left-block__list__text3 {
           margin-left: 0;
           font-weight: 600
       }
-      .features__left--block__icon--file {
+      .features__left-block__icon--file {
           padding: 0;
-          float: none;
           margin-left: 0px;
-          display: block;
-      }
-      .features__left-block__list__label4__text {
-          right: 1px;
-          top: 0;
       }
       .features__left-block__list__text4 {
           float: none;
           padding-left: 0px;
           font-weight: 600;
       }
-      .features__left--block__icon--facebook {
+      .features__left--block__icon-facebook {
           padding: 0;
           float: none;
           display: block;
@@ -1954,12 +1869,9 @@
           padding-left: 0;
           font-weight: 600
       }
-      .content--secondary--header__navbar__list__item--active {
-          padding: 11px 14px 10px 14px;
-          ;
-          padding-bottom: 9px;
-          border-top-left-radius: 3px;
-          border-bottom-left-radius: 3px
+      .content-secondary-header__navbar__list__item--active {
+          padding: 11px 14px 9px 14px;
+          border-radius: 3px 0 0 3px;
       }
       .features__right-block {
           float: none;
@@ -1967,8 +1879,7 @@
           width: auto;
           margin-left: 0;
       }
-      .features__right-block__chart--wrapper {
-          width: 100%;
+      .features__right-block__chart-wrapper {
           height: auto
       }
       .features__right-block__chart__list {
@@ -1976,7 +1887,7 @@
           width: auto;
           height: auto
       }
-      .features__right-block__chart--wrapper__chart {
+      .features__right-block__chart-wrapper__chart {
           float: none;
           width: auto;
           display: none;
@@ -1987,108 +1898,108 @@
           float: none;
           margin-bottom: 10px;
       }
-      .calendar--wrapper__content {
+      .calendar-wrapper__content {
           width: 100%;
           table-layout: fixed
       }
-      .calendar--wrapper {
+      .calendar-wrapper {
           float: none;
           width: calc(100% - 20px);
           margin-left: 10px;
       }
-      .calendar--wrapper__content__data__reminder-long {
+      .calendar-wrapper__content__data__reminder-long {
           width: 185%;
           font-size: 10px;
       }
-      .calendar--wrapper__content__data__reminder {
+      .calendar-wrapper__content__data__reminder {
           font-size: 10px;
           padding-left: 2px
       }
-      .scrollable--box {
+      .scrollable-box {
           width: calc(100% - 20px);
           float: none;
           margin: 20px 0 0 10px;
       }
-      .scrollable--box__list--wrapper__list__text-wrapper {
+      .scrollable-box__list-wrapper__list__text-wrapper {
           width: 68%;
       }
-      .scrollable--box__list--wrapper__list__date--wrapper {
+      .scrollable-box__list-wrapper__list__date-wrapper {
           width: 35px;
       }
-      .textarea-profile--img {
+      .textarea-profile-img {
           display: none
       }
-      .textarea--list {
+      .textarea-list {
           width: calc(100% - 20px);
           margin-left: 10px;
       }
-      .textarea--list__profile--img--mobile {
+      .textarea-list__profile-img-mobile {
           background: url(../Images/face1.png) no-repeat center;
           height: 31px;
           width: 38px;
           float: left;
           margin: 8px 25px 0 13px;
       }
-      .textarea--list__heading {
+      .textarea-list__heading {
           float: none;
           width: none;
           padding-left: 0;
           height: 68px
       }
-      .textarea--list__heading::before {
+      .textarea-list__heading::before {
           display: none
       }
-      .textarea--list__attachment {
+      .textarea-list__attachment {
           padding-left: 15px
       }
-      .textarea--list__attachment::before {
+      .textarea-list__attachment::before {
           left: -6px
       }
-      .textarea-profile--img2 {
+      .textarea-profile-img2 {
           display: none
       }
-      .textarea-profile--img3 {
+      .textarea-profile-img3 {
           display: none
       }
-      .textarea--list__profile--img2--mobile {
+      .textarea-list__profile-img2-mobile {
           background: url(../Images/face2.png) no-repeat center;
           height: 31px;
           width: 38px;
           float: left;
           margin: 8px 25px 0 13px;
       }
-      .textarea-list__profile--img3--mobile {
+      .textarea-list__profile-img3-mobile {
           background: url(../Images/face3.png) no-repeat center;
           height: 31px;
           width: 38px;
           float: left;
           margin: 8px 25px 0 13px;
       }
-      .textarea--list__heading__title__time--duration {
+      .textarea-list__heading__title__time-duration {
           float: none;
           display: block;
           position: absolute;
           right: 0
       }
-      .comment--box {
+      .comment-box {
           width: calc(100% - 20px);
           margin-left: 10px
       }
-      .comment--box__text-wrapper__text {
+      .comment-box__text-wrapper__text {
           width: auto;
           padding: 0 0 7px 12px;
           margin-left: : 0
       }
-      .comment--box__textarea {
+      .comment-box__textarea {
           width: 96%;
           margin-top: 1%;
           margin-left: 10px;
           position: relative
       }
-      .comment--box__textarea::before {
+      .comment-box__textarea::before {
           top: -9px
       }
-      .scrollable--box__header__label {
+      .scrollable-box__header__label {
           height: 18px;
           width: 25px;
           padding: 1px 2px
@@ -2128,16 +2039,16 @@
       .page-wrapper {
           padding-top: 100px;
       }
-      .textarea--list__textbox {
+      .textarea-list__textbox {
           padding-top: 16px
       }
-      .conetnt__primary--header__text__sub--heading {
+      .conetnt__primary-header__text__sub-heading {
           font-size: 14px;
       }
-      .features__right-block__chart__list__item--primary__numbers__progressbar {
+      .features__right-block__chart__list__item-primary__numbers__progressbar {
           width: 93%
       }
-      .textarea--list__textbox__image {
+      .textarea-list__textbox__image {
           width: 94%;
           border: 12px solid #fff;
           border-top: 6px solid #fff;
@@ -2148,22 +2059,22 @@
       .chart--wrapper__list__item--primary__progressbar:before {
           width: 70%;
       }
-      .textarea--list__textbox {
+      .textarea-list__textbox {
           padding-left: 16px;
       }
-      .textarea--list__heading {
+      .textarea-list__heading {
           height: 76px;
       }
-      .comment--box__text-wrapper__text__title {
+      .comment-box__text-wrapper__text__title {
           font-size: 11px
       }
-      .comment--box__text-wrapper__text {
+      .comment-box__text-wrapper__text {
           font-size: 10px;
       }
       .textarea::-webkit-placeholder {
           font-size: 11px !important;
       }
-      .textarea--list__textbox__image__placeholder {
+      .textarea-list__textbox__image__placeholder {
           font-size: 17px
       }
       .comment-box__text-wrapper {
@@ -2193,13 +2104,12 @@
       display: none
   }
   
-  .features__right-block__chart__list__item--primary__numbers__icon-main {
+  .features__right-block__chart__list__item-primary__numbers__icon-main {
       display: inline-block;
       width: 30px;
       height: 30px;
       background: #84B5DD;
       border-radius: 4px;
-      position: relative;
   }
   
   i.flaticon-paperclip-document-outline.icon-attachment:before {
@@ -2207,22 +2117,30 @@
       margin-right: 6px;
   }
   
-  i.flaticon-settings.features__left--block__icon--settings {
+  i.flaticon-settings.features__left--block__icon-settings {
       width: 39px;
       height: 30px;
       cursor: pointer;
       display: inline-block;
   }
   
-  li.scrollable--box__list--wrapper:last-child {
+  li.scrollable-box__list-wrapper:last-child {
       border-bottom: none;
   }
   
-  .calender--wrapper__content__data__date {
+  .calender-wrapper__content__data__date {
       display: block;
       text-align: right;
       font-size: 12px;
       color: #A7A7A7;
       font-weight: 600;
       margin-right: 3px;
+  }
+  
+  .scrollable-box__list-wrapper__list__icon-wrapper.icon1 {
+      background-color: #8FC181;
+  }
+  
+  .scrollable-box__list-wrapper__list__icon-wrapper.icon3 {
+      background-color: #BBB5D8;
   }
